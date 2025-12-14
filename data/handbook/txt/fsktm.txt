@@ -1,0 +1,801 @@
+SINOPSIS KURSUS
+COURSE SYNOPSIS
+SINOPSIS KURSUS │COURSE SYNOPSIS
+Jabatan Sains Komputer │Department of Computer Science
+CCS3002 Prinsip Matematik Tambahan 3(3+0)
+Principles of Additional Mathematics
+Prasyarat : Tiada
+Kursus ini meliputi konsep teras matematik tambahan yang diperlukan dalam pengajian sains
+komputer. Ia merangkumi unsur penting dalam algebra, geometri, kalkulus, trigonometri dan statistik.
+This course covers the core concepts of additional mathematics that are needed in the study of
+computer science. It includes important elements in algebra, geometry, calculus, trigonometry and
+statistics.
+CCS3003 Struktur Diskret 3(3+0)
+Discrete Structures
+Prasyarat : Tiada
+Kursus ini meliputi asas struktur diskret untuk menyelesaikan masalah yang berkaitan bidang sains
+komputer. Ia merangkumi asas logik, teori set, pengiraan dan pemodelan dalam penyelesaian
+masalah.
+This course covers the basics of discrete structures to solve problems related to the field of computer
+science. It covers the basics of logic, set theory, computation and modeling in problem solving.
+CCS3100 Penyelesaian Masalah dan Konsep Pengaturcaraa 3(2+1)
+Problem Solving and Programming Concepts
+Prasyarat : Tiada
+Kursus ini merangkumi teknik penyelesaian masalah pengaturcaraan bertatacara. Ia meliputi
+pengenalan kepada pengaturcaraan menggunakan struktur kawalan asas, struktur data asas, dan
+penyahpepijatan.
+This course covers problem solving techniques for procedural programming. It encompasses an
+introduction to programming using basic control structures, basic data structures, and debugging.
+CCS3101 Pengaturcaraan Berorientasikan Objek 3(2+1)
+Object-Oriented Programming
+Prasyarat : CCS3100
+Kursus ini meliputi teknik pengaturcaraan berorientasikan objek. Paradigma berorientasi objek yang
+memberikan fleksibiliti, modulariti dan penggunaan semula dibincangkan.
+This course covers object-oriented programming techniques. The object-oriented paradigm that
+provides flexibility, modularity and reusability is discussed.
+CCS3104 Pengaturcaraan Lanjutan 3(2+1)
+Advanced Programming
+Prasyarat : CCS3101
+Kursus ini meliputi pelbagai teknik pengaturcaraan lanjutan untuk berinteraksi dengan persekitaran
+luaran bagi menggunakan sumbernya. Pengaturcaraan berpacu peristiwa dan pengkomputeran
+berprestasi tinggi turut dibincangkan.
+This course covers a variety of advanced programming techniques to interact with the external
+environment for using its resources. Event-driven and high performance computing programming
+techniques are also discussed.
+CCS3200 Organisasi dan Seni Bina Komputer 3(3+0)
+Computer Organization and Architecture
+Prasyarat : CCS3100
+Kursus ini merangkumi organisasi dan seni bina komputer digital. Ia meliputi unit kendalian dan
+hubung kait di antaranya yang digunakan untuk merealisasikan seni bina komputer. Langkah untuk
+membina komponen dalam komputer digital dibincangkan
+This course covers the organization and architecture of digital computer. It includes operational units
+and their interconnections which are used to realize the computer architecture. Steps to construct
+components in digital computer are discussed
+CCS3202 Struktur Data dan Algoritma 3(3+0)
+Data Structures dnd Algorithms
+Prasyarat : CCS3101
+Kursus ini meliputi konsep penyimpanan data pada ingatan komputer. Teknik menyimpan dan
+mengolah data secara berstruktur, serta analisis kekompleksan algoritma berdasarkan notasi Big-O
+dengan tujuan untuk menentukan kecekapan dibincangkan.
+This course covers the concept of storing data in computer memory. Techniques for the storage and
+manipulation of structured data, as well as algorithm complexity analysis based on Big-O notation for
+the purpose of determining efficiency are discussed.
+CCS3300 Sistem Pengoperasian 3(3+0)
+Operating Systems
+Prasyarat : CCS3200
+Kursus ini merangkumi fungsi dan komponen utama sistem pengoperasian moden. Ia meliputi prinsip
+formal sistem pengoperasian, pengurusan dan penjadualan proses, serta pengurusan sumber dalam
+sistem komputer. Persekitaran sistem pengoperasian bukan-konvensional turut dibincangkan.
+This course covers the main functions and components of modern operating systems. It covers the
+formal principles of operating systems, process management and scheduling, as well as resource
+management in computer systems. Non-conventional operating system environments are also
+discussed.
+CCS3400 Prinsip Pangkalan Data 3(2+1)
+Database Principles
+Prasyarat : CCS3101
+Kursus ini meliputi reka bentuk pangkalan data menggunakan model data terpilih dan pemetaan ke
+pangkalan data hubungan. Ia termasuk merumus bahasa pertanyaan menggunakan SQL dan
+pengaturcaraan menggunakan prosedur tersimpan dan pemicu.
+This course covers the database design using a chosen data model and mapping to relational
+database. It includes query language formulation using SQL and programming using stored procedure
+and trigger.
+CCS3402 Pembangunan Aplikasi Pangkalan Data 3(2+1)
+Database Application Development
+Prasyarat : CCS3400
+Kursus ini meliputi reka bentuk dan pembangunan aplikasi dengan capaian ke pangkalan data.
+Pemetaan objek-hubungan dan konsep kerangka kerja Model View Controller (MVC) diberi
+penekanan. Beberapa model dan seni bina aplikasi web dibincangkan.
+This course covers the design and development of applications with access to the database. Object-
+relational mapping and Model View Controller (MVC) concepts are emphasized. Several models and
+architectures of web application are discussed.
+CCS3600 Kecerdasan Buatan 3(3+0)
+Artificial Intelligence
+Prasyarat : CCS3202
+Kursus ini merangkumi konsep dan teknik kecerdasan buatan. Teknik pemodelan pengetahuan,
+gelintaran, pemprosesan bahasa tabii, pembelajaran mesin dan pengkomputeran evolusi
+dibincangkan termasuk penggunaannya dalam industri.
+This course covers artificial intelligence concepts and techniques. Techniques on knowledge
+modeling, searching, natural language processing, machine learning and evolutionary computation
+are discussed including their usage in industry.
+CCS3700 Pengaturcaraan Sistem Terbenam 3(2+1)
+Embedded Systems Programming
+Prasyarat : CCS3300
+Kursus ini merangkumi konsep asas dan keperluan untuk membangun suatu sistem terbenam. Ia
+meliputi perisian dan perkakasan bagi platform terbenam, persekitarannya, dan pendekatan
+pengaturcaraan terbenam.
+The course comprises the fundamental concepts and requirements of developing an embedded
+system. It covers the software and hardware of the embedded platform, their environments, and
+embedded programming approaches.
+CCS4200 Reka Bentuk Pengkompil 3(3+0)
+Compiler Design
+Prasyarat : CCS3202
+Kursus ini memperkenalkan konsep dalam penterjemahan bahasa pengaturcaraan seperti nahu
+formal dan fasa reka bentuk pengkompil. Kaedah analisis sintaks seperti huraian atas-bawah dan
+huraian bawah-atas juga dibincangkan. Pelajar akan menghasilkan satu pengkompil mudah
+menggunakan alatan sedia ada.
+This course introduces the concepts in programming language translation such as formal grammar
+and compiler design phases. Methods for syntax analysis such as top-down and bottom-up parsing
+are also discussed. Students will produce a simple compiler using available tools.
+CCS4202 Reka Bentuk dan Analisis Algoritma 3(3+0)
+Design and Analysis of Algorithms
+Prasyarat : CCS3202
+Kursus ini meliputi teknik asas untuk mereka bentuk algoritma yang cekap dan menganalisis masa
+lariannya. Beberapa teknik reka bentuk dan analisis algoritma akan dibincangkan. Pelajar akan turut
+diperkenalkan kepada algoritma graf, padanan rentetan dan lengkapan-NP.
+This course covers the fundamental techniques for designing efficient algorithms and analyzing their
+running times. Several design and analysis techniques of algorithms will be discussed. Students will
+be introduced to graph algorithms, string matching and NP-completeness.
+CCS4300 Reka Bentuk Sistem Pengoperasian 3(3+0)
+Operating System Design
+Prasyarat : CCS3300
+Kursus ini merangkumi reka bentuk dan teknik dalam implementasi kernel sistem pengoperasian dan
+perkhidmatannya. Ia meliputi fasa memulakan sistem, pengurusan dan penjadualan proses, serta
+pengurusan dan keselamatan sumber utama dalam sistem komputer.
+This course covers the design and technique in the implementation of operating system kernel and
+its services. It encompasses the phase of starting the system, process management and scheduling,
+and also the management and security of the main resources in a computer system.
+CCS4400 Sistem Pangkalan Data Lanjutan 3(3+0)
+Advanced Database Systems
+Prasyarat : CCS3400
+Kursus ini meliputi konsep teoretikal pangkalan data hubungan dan pemprosesan transaksi. Ia
+merangkumi kaedah pengurusan pangkalan data bagi pelbagai jenis sistem pangkalan data.
+This course covers theoretical concepts of relational database and transaction processing. It includes
+database management methods for various types of database systems.
+CCS4402 Pentadbiran Pangkalan Data 3(3+0)
+Database Administration
+Prasyarat : CCS4400
+Kursus ini meliputi konsep pentadbiran pangkalan data. Pelajar akan mempelajari aspek teori dan
+praktikal dalam pentadbiran pangkalan data untuk menjamin ketersediaan dan keselamatan
+pangkalan data, serta memantau prestasi pangkalan data.
+This course covers the database administration concepts. Students will learn theoretical and practical
+aspects in database administration to assure the availability dan security of the database, as well as
+to monitor the database performance.
+CCS4404 Analitik Bisnes 3(3+0)
+Business Analytics
+Prasyarat : CCS3400
+Kursus ini meliputi konsep asas analitik data khusus untuk pembuatan keputusan berwawasan dalam
+perniagaan. Ia merangkumi pengurusan lengkap data, termasuk mengumpul, membersih,
+55mengorganisasi, menyimpan, governan, dan menganalisis data. Konsep gudang data, alatan dan
+teknik analitik, serta pelbagai aplikasi analitik bisnes dibincangkan.
+The course covers the fundamental concepts of data analytics specifically for insightful decision
+making in business. It encompasses the complete management of data, including collecting, cleaning,
+organizing, storing, governing, and analysing data. Data warehouse concepts, analytical tools and
+techniques, as well as various business analytics applications are discussed.
+CCS4406 Analitik Data Raya 3(3+0)
+Big Data Analytics
+Prasyarat : CCS3400
+Kursus ini meliputi pengenalan kepada teknologi data raya dan kepentingan analitik data raya. Ia
+merangkumi teknologi, alatan serta teknik data raya yang digunakan di dalam pelbagai industri.
+Penggunaan alatan dalam analitik data raya akan dibincangkan.
+This course covers the introduction to big data technology and the importance of big data analytics.
+It includes big data technology, tools and techniques that are used in various industries. The usage
+of tools in big data analytics will be discussed.
+CCS4500 Keselamatan Komputer 3(3+0)
+Computer Security
+Prasyarat : CCS3300
+Kursus ini merangkumi matlamat keselamatan dalam sistem komputer untuk menyediakan pelajar
+dengan pemahaman yang komprehensif tentang keselamatan komputer. Ia meliputi jenis ancaman,
+keselamatan perisian, keselamatan web, aplikasi mudah alih dan keselamatan rangkaian serta
+kaedah dan strategi tindak balas dalam memastikan keselamatan komputer.
+This course covers the security goal in computer systems to provide students with a comprehensive
+understanding of computer security. Topics include threats and countermeasure techniques and
+strategies of software, web, mobile applications and network and countermeasure methods and
+strategies in ensuring computer security.
+CCS4502 Kriptografi 3(3+0)
+Cryptography
+Prasyarat : CCS3202
+Kursus ini merangkumi prinsip, teknik, dan aplikasi kriptografi. Ia termasuk teknik matematik,
+mekanisme kriptografi, dan algoritma untuk menyelesaikan masalah berkaitan keselamatan
+maklumat.
+This course covers the principles, techniques, and applications of cryptography. It includes
+mathematical techniques, cryptographic mechanism, and algorithms for solving problem related to
+information security.
+CCS4504 Forensik Komputer 3(3+0)
+Computer Forensics
+Prasyarat : CCS3300
+Kursus ini merangkumi metodologi forensik komputer dan aplikasi praktikal alat-alat yang relevan. Ia
+juga menekankan pertimbangan undang-undang yang berkaitan dan memberikan penerangan
+tentang garis panduan dasar.
+This course covers computer forensic methodologies and the practical application of relevant tools. It
+also emphasizes relevant legal considerations and sheds light on policy guidelines.
+CCS4506 Keselamatan Pangkalan Data 3(3+0)
+Database Security
+Prasyarat : CCS3402
+Kursus ini meliputi konsep dan isu berkaitan keselamatan pangkalan data, yang melibatkan
+pengesahihan, keizinan dan kawalan capaian, dan pengauditan. Teknik keselamatan pangkalan data
+yang digunakan dalam Sistem Pengurusan Pangkalan Data dibincangkan.
+This course covers the concepts and issues on database security, which involve authentication,
+authorization and access control, and auditing. Database security techniques used in Database
+Management Systems (DBMS) are discussed.
+CCS4600 Perlombongan Data 3(3+0)
+Data Mining
+Prasyarat : CCS3600
+Kursus ini meliputi konsep dan teknik perlombongan data, yang merangkumi pra-pemprosesan data,
+serta fungsi dan perisian perlombongan data. Teknik terpilih digunakan dalam pembangunan aplikasi
+perlombongan data.
+This course covers concepts and techniques of data mining, which include data pre-processing, as
+well as data mining functions and software. The chosen techniques are applied in the data mining
+application system development.
+CCS4602 Pembelajaran Mesin 3(3+0)
+Machine Learning
+Prasyarat : CCS3600
+Kursus ini meliputi konsep pembelajaran mesin. Algoritma dalam pengecaman corak dan
+pengoptimuman yang berdasarkan kaedah statistik, rangkaian neural dan pengkomputeran
+berevolusi dibincangkan. Peralatan perisian pembelajaran mesin yang sesuai akan digunakan dalam
+pembangunan aplikasi.
+This course covers the concepts of machine learning. Algorithms for pattern recognition and
+optimization that are based on statistical methods, neural networks and evolutionary computation are
+discussed. Appropriate software tools for machine learning will be used in application development.
+CCS4604 Sistem Berasaskan Pengetahuan 3(3+0)
+Knowledge Based System
+Prasyarat : CCS3600
+Kursus ini meliputi sistem berasaskan pengetahuan untuk domain pengetahuan khusus. Teknik
+pemerolehan pengetahuan, perwakilan pengetahuan, dan aplikasi domain masalah tertentu
+dibincangkan. Kaedah inferens juga diberi penekanan.
+This course covers the knowledge-based systems for specific knowledge domains. Techniques of
+knowledge acquisition, knowledge representation, and the applications in a particular problem domain
+are discussed. Inference methods are also emphasized.
+CCS4700 Pembangunan Sistem Terbenam 3(3+0)
+Embedded Systems Development
+Prasyarat : CCS3700
+Kursus ini meliputi pembangunan aplikasi untuk sistem terbenam dengan menggunakan penderia,
+persisian dan sokongan komunikasi rangkaian termasuk Internet Benda (IoT). Persekitaran dan
+metodologi pembangunan sistem terbenam dibincangkan.
+This course covers application development for embedded systems using sensors, peripherals and
+network communication support including the Internet of Things (IoT). Embedded systems
+development environments and methodologies are discussed.
+CCS4702 Pembangunan Sistem Robotik 3(3+0)
+Robotic System Development
+Prasyarat : CCS3202
+Kursus ini meliputi pengenalan kepada sistem robotik, termasuk struktur mekanikal sistem robot,
+mekanik pemanipulasi robot dan sistem kawalan. Asas robot berautonomi diberi penekanan.
+This course covers introduction to robotics system, which includes the robotic sensing, motion control
+and adaptive control. The fundamentals of autonomous robots is emphasised.
+CCS4704 Internet Benda dan Aplikasi 3(3+0)
+Internet of Things and Applications
+Prasyarat : CCS3700
+Kursus ini merangkumi aspek teknikal yang digunakan dalam pembangunan, pemprosesan dan
+pengurusan Internet benda (IoT). Perkhidmatan, keselamatan, aplikasi pembelajaran mesin dan
+implikasi terhadap masyarakat juga dibincangkan.
+This course covers the technical aspects used in the development, processing and management of
+the Internet of Things (IoT). Services, security, machine learning applications and implications for
+society are also discussed.
+CCS4901 Latihan Industri 12(0+12)
+Industrial Training
+Prasyarat : Dengan Kebenaran Jabatan
+Melalui kursus ini, pelajar didedahkan kepada persekitaran kerja yang sebenar di industri atau
+organisasi. Latihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan
+amalan semasa di tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi
+penekanan.
+In this course, students are exposed to real working environments in industries or organizations.
+Training includes application of the theoretical and practical aspects that have been studied with
+current practices in the workplace. Problem solving and communication skills are also emphasized.
+CCS4949 Projek Bacelor 6(0+6)
+Bachelor Project
+Prasyarat : Dengan Kebenaran Jabatan
+Kursus ini merangkumi aspek perancangan dan pelaksanaan projek. Ini termasuklah pemilihan tajuk,
+melaksanakan kajian kritis, mereka bentuk dan melaksanakan strategi kerja, mengumpul dan
+menganalisis data, serta mendokumentasi dan membentangkan hasil projek.
+This course covers the aspects of planning and executing project. These include title selection,
+conducting critical review, designing and performing work strategy, collecting and analysing data,
+documenting and presenting project output.
+SINOPSIS KURSUS │COURSE SYNOPSIS
+Jabatan Multimedia │Department of Multimedia
+CSM3001 Teknologi Multimedia 3(3+0)
+Multimedia Technology
+Prasyarat : Tiada
+Kursus ini merangkumi pengenalan kepada teknologi multimedia yang melibatkan perkakasan dan
+perisian komputer yang digunakan untuk menghasilkan aplikasi multimedia interaktif. Ia meliputi
+perkhidmatan dan platform untuk penggunaan dan pembangunan aplikasi multimedia.
+This course covers an introduction to multimedia technology involving computer hardware and software
+used to produce interactive multimedia applications. It covers services and platforms for the use and
+development of multimedia applications.
+CSM3002 Matematik untuk Pengkomputeran Multimedia 3(3+0)
+Mathematics for Multimedia Computing
+Prasyarat : CCS3100
+Kursus ini merangkumi asas matematik dalam pengkomputeran multimedia. Penggunaan teori
+matematik dalam melakukan operasi pengkomputeran pada data multimedia berbentuk vektor dan
+matriks, termasuk juga aplikasinya dalam algoritma pembelajaran mesin dan pembelajaran mendalam
+diberi penekanan.
+This course covers mathematical theory in multimedia computing. The use of mathematical theory to
+perform various computing operations on multimedia data in the form of vector and matrix, including its
+application in machine learning and deep learning algorithms are emphasised.
+CSM3204 Grafik Komputer dan Kemasan 3(2+1)
+Computer Graphics and Rendering
+Prasyarat : CCS3101
+Kursus ini merangkumi konsep asas dalam grafik komputer dari aspek perkakasan dan perisian. Ia
+meliputi teknik pemodelan tiga dimensi, algoritma kemasan grafik komputer bagi paparan yang realistik,
+dan penggunaan kaedah surihan cahaya dalam kemasan grafik komputer.
+This course covers basic concepts in computer graphics from the aspect of hardware and software. It
+covers three-dimensional modeling techniques, computer graphics rendering algorithms for realistic
+displays, and the use of ray tracing methods in computer graphics rendering.
+CSM3206 Pemprosesan Bahasa Tabii 3(2+1)
+Natural Language Processing
+Prasyarat : CCS3101
+Kursus ini merangkumi model pemprosesan bahasa secara linguistik, statistik dan neural dalam dua
+subbidang utama Pemprosesan Bahasa Tabii iaitu sintaks dan semantik. Ia meliputi model yang boleh
+memahami dan menghasilkan bahasa.
+This course covers linguistic, statistical and neural language processing models in two main subfields of
+Natural Language Processing, namely syntax and semantic. It includes models that can understand and
+produce languages.
+CSM3307 Realiti Maya 3(2+1)
+Virtual Reality
+Prasyarat : CCS3101
+Kursus ini merangkumi konsep asas realiti maya dan kemahiran yang terlibat dalam membangunkan
+suatu persekitaran realiti maya. Ia meliputi penggunaan perisian dan perkakasan untuk realiti maya, serta
+menekankan pada aspek grafik komputer, bahasa pengaturcaraan, interaktiviti, teknik animasi serta
+penggunaan teknologi untuk penghasilan metasemesta.
+This course covers the basic concepts of virtual reality and the skills involved in developing a virtual
+reality environment. It covers the use of software and hardware for virtual reality, as well as emphasis
+on computer graphics, programming languages, interactivity, animation techniques as well as the use of
+technology to produce metaverse.
+CSM3315 Aplikasi Realiti Terimbuh 3(2+1)
+Augmented Reality Application
+Prasyarat : CCS3101
+Kursus ini merangkumi konsep asas dalam realiti terimbuh daripada aspek perkakasan dan perisian. Ia
+meliputi paparan interaksi realiti terimbuh, teknik untuk memproses dan memaparkan gambar berterusan
+dalam realiti terimbuh serta penjelmaan imej dua dan tiga dimensi dalam suasana realiti terimbuh.
+This course covers the basic concept in augmented reality from the hardware and software aspects. It
+includes augmented reality interactivity display, techniques for processing and displaying continuous
+picture in augmented reality together with 2D and 3D image transformations in augmented reality
+environment.
+CSM3401 Pembangunan Web Multimedia Interaktif 3(2+1)
+Interactive Multimedia Web Development
+Prasyarat : CCS3101
+Kursus ini merangkumi konsep asas dalam mereka bentuk, membangun, dan mentadbir laman web yang
+efektif dan interaktif yang dapat menyokong operasi e-dagang. Teknologi, alatan, perisian, dan
+komponen bagi pembangunan aplikasi web turut dibincangkan.
+This course covers basic concepts in designing, developing, and managing effective and interactive
+websites that can support e-commerce operations. Technologies, tools, software, and components for
+web application development are also discussed.
+CSM3601 Penyelesaian Masalah Menggunakan Kecerdasan Buatan 3(2+1)
+Problem Solving Using Artificial Intelligence
+Prasyarat : CCS3101
+Kursus ini merangkumi kaedah penyelesaian masalah menggunakan kecerdasan buatan dengan
+memberi perhatian khusus kepada teknik pembelajaran mesin. Ia termasuk aplikasi praktikal kecerdasan
+buatan dan teknik pembelajaran mesin menggunakan data sebenar. Isu etika berkaitan aplikasi
+kecerdasan buatan dan kesannya terhadap masyarakat turut dibincangkan.
+This course covers problem solving methods using artificial intelligence with special attention to machine
+learning techniques. It includes practical applications of artificial intelligence and machine learning
+techniques using real data. Ethical issues related to artificial intelligence applications and their impact on
+society are also discussed.
+CSM4317 Penglihatan Komputer 3(2+1)
+Computer Vision
+Prasyarat : CCS3101
+Kursus ini merangkumi pelbagai model dan kaedah untuk pengecaman objek secara automatik dalam
+imej. Ia juga meliputi beberapa kaedah pembelajaran mesin dan pembelajaran mendalam yang terkini
+untuk menyelesaikan masalah penglihatan komputer.
+This course covers various models and methods for automatically recognising objects in images. It also
+includes several state-of-the-art machine learning and deep learning methods for solving computer vision
+problems.
+CSM4300 Pengurusan Projek Multimedia 3(3+0)
+Multimedia Project Management
+Prasyarat : SSW3001
+Kursus ini merangkumi strategi dan perancangan untuk perniagaan multimedia, pemboleh ubah yang
+terkandung dalam suatu projek dari pelanggan ke teknik dan pemilihan ahli pasukan multimedia bagi
+pelaksanaan proses pengurusan projek. Isu undang-undang yang melibatkan komunikasi yang inovatif,
+pengiklanan, pencarian dan mekanisme storan yang ditawarkan oleh media dalam talian turut dikaji.
+This course covers the strategy and planning for a multimedia business, the variables within projects
+from clients to techniques and choosing the multimedia team members to implement the project
+management process. Legal issues which involve the innovative use of communication, advertising,
+searching and storage mechanisms that online media offers are also studied..
+CSM4901 Latihan Industri 12(0+12)
+Industrial Training
+Prasyarat : Dengan Kebenaran Jabatan
+Melalui kursus ini, pelajar didedahkan kepada persekitaran kerja yang sebenar di industri/ organisasi.
+Latihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa di
+tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan.
+In this course, students are exposed to real working environment in industries/ organisations. Training
+includes application of the theoretical and practical aspects that have been studied with current practices
+in the workplace. Problem solving and communication skills are also emphasised.
+CSM4949 Projek Bacelor 6(0+6)
+Bachelor Project
+Prasyarat : Dengan Kebenaran Jabatan
+Kursus ini merangkumi aspek perancangan dan pelaksanaan projek. Ini termasuklah pemilihan tajuk,
+melaksanakan kajian kritis, mereka bentuk dan melaksanakan strategi kerja, mengumpul dan
+menganalisis data, serta mendokumentasi dan membentangkan hasil projek.
+This course covers the aspects of planning and executing project. These include title selection,
+conducting critical review, designing, and performing work strategy, collecting and analysing data,
+documenting and presenting project output.
+SINOPSIS KURSUS │COURSE SYNOPSIS
+Jabatan Teknologi Komunikasi dan Rangkaian │
+Department of Communication Techology and Network
+CND3100 Pengaturcaraan Rangkaian 3(2+1)
+Network Programming
+Prasyarat : CND3200
+Kursus ini merangkumi konsep pengaturcaraan, teknologi dan pembangunan aplikasi rangkaian
+bersekuriti. Ia termasuklah penulisan atur cara rangkaian menggunakan antara muka atur cara aplikasi
+(API).
+This course covers programming concepts, technology and the development of secured network
+applications. It includes writing network programs using Application Programming Interface (API).
+CND3101 Pengaturcaraan Python 3(2+1)
+Python Programming
+Prasyarat : CCS3100
+Kursus ini merangkumi sintaks Python dan penggunaan struktur data bina-dalam, kaedah bina-dalam
+dan pustaka. Analisis dan visualisasi data dari pustaka pengikisan web, pembelajaran mesin dan
+pembelajaran mendalam diberi penekanan.
+This course covers Python syntax and usage of the built-in data structures, built-in methods and
+libraries. Data analysis and visualization from the web scraping, machine learning and deep learning
+libraries are emphasized.
+CND3102 Pengaturcaraan C++ 3(2+1)
+C++ Programming
+Prasyarat : CCS3101
+Kursus ini merangkumi asas pengaturcaraan dalam bahasa pengaturcaraan C++. Konsep dan teknik
+yang digunakan untuk penghasilan kod program secara berstruktur, modular dan guna semula dalam
+mereka bentuk program komputer. Penyelesaian masalah berkaitan dengan asas pengaturcaraan
+soket, selari, dan tertanam menggunakan C++ diberi penekanan.
+This course covers the basic programming in the C++ programming language. The concepts and
+techniques are used to create structured, modular, and reusable code in designing a computer program.
+Problem-solving related to a socket, parallel, and embedded programming basics using C++ is
+emphasized.
+CND3200 Komunikasi dan Rangkaian Komputer 3(3+0)
+Computer Network and Communication
+Prasyarat : Tiada
+Kursus ini merangkumi konsep asas dalam komunikasi komputer dan piawaian model rangkaian. Ciri-
+ciri transmisi fizikal, seni bina rangkaian, jenis rangkaian, teknologi terkini rangkaian komputer,
+komponen utama dalam sistem komunikasi data, rangkaian kawasan setempat (LAN) dan rangkaian
+kawasan luas (WAN) diberi penekanan.
+This course covers the basic concepts of computer communications and the network model standard.
+The characteristics of physical transmission, network architecture, types of networks, the latest
+technologies on computer networks, the major components of data communication systems, local area
+networks (LAN) and wide area networks (WAN) are emphasized.
+CND3201 Teknologi Antara Rangkaian 3(2+1)
+Internetworking Technology
+Prasyarat : CND3200
+Kursus ini merangkumi aspek protokol rangkaian serta pemasangan dan konfigurasi alatan rangkaian.
+Ia meliputi ciri-ciri protokol pada semua paras rangkaian piawai TCP/IP dan konfigurasi alatan rangkaian
+seperti suis dan penghala.
+This course covers the network protocols together with the installation and configuration of network
+devices. It encompasses the characteristics of protocols for all standard TCP/IP layers and network
+configuration of switches and routers.
+CND3202 Pengkomputeran Teragih dan Selari 3(2+1)
+Distributed and Parallel Computing
+Prasyarat : CND3200
+Kursus merangkumi konsep pengaturcaraan selari dan teragih yang berasaskan kepada ingatan
+berkongsi, teragih dan hibrid. Penyegerakkan, taburan data, pengimbangan muatan, penjadualan,
+pemetaan data, komunikasi data, reka bentuk, pembangunan dan penilaian prestasi atur cara selari dan
+teragih diberi penekanan.
+This course covers concepts of parallel and distributed programming based on shared, distributed and
+hybrid memory. Synchronization, data distribution, load balancing, scheduling, data partitioning, data
+communication, designs, develops, and evaluates the parallel and distributed programs are
+emphasized.
+CND3300 Pentadbiran Sistem dan Rangkaian 3(2+1)
+System and Network Administration
+Prasyarat : CND3200
+Kursus ini merangkumi konfigurasi dan kaedah pengurusan sistem dan rangkaian berdasarkan pelantar
+Unix/Linux. Pemulihan bencana dan keselamatan bagi memastikan sistem dan rangkaian yang stabil
+dan selamat diberi penekanan.
+This course covers system and network configuration and management methods based on Unix/Linux
+platform. Disaster discovery and security to ensure stable and secure system and network are
+emphasized.
+CND3400 Aplikasi Mudah Alih 3(2+1)
+Mobile Application
+Prasyarat : CCS3101
+Kursus ini merangkumi konsep, seni bina, rangka kerja, reka bentuk antara muka, teknik, dan
+metodologi pembangunan aplikasi mudah alih. Praktis yang berjaya dalam membangunkan aplikasi
+untuk pasaran perniagaan mudah alih semasa juga diberikan penekanan.
+This course covers the concept, architecture, framework, interface design, technique, and methodology
+of mobile application development. Successful practices in developing an application for the current
+mobile business market are also emphasised.
+CND4200 Reka Bentuk dan Pengurusan Rangkaian Perusahaan 3(3+0)
+Enterprise Network Design and Management
+Prasyarat : CND3200
+Kursus ini merangkumi aspek analisis dan reka bentuk rangkaian komputer dan pengurusan rangkaian.
+Pelajar didedahkan tentang aspek teknikal dan kekangan dalam implementasi sesuatu sistem
+rangkaian komputer. Aspek operasi, penggunaan alatan diagnostik dan piawaian semasa bagi sistem
+pengurusan rangkaian turut dibincangkan.
+This course covers the analysis and design of computer networks and the network management.
+Students are exposed to the technical aspects and constraints in the implementation of a computer
+network system. The operational aspect, the utilisation of diagnostic tools and the current standard of
+network management systems are also discussed.
+CND4201 Rangkaian Wayarles dan Bergerak 3(3+0)
+Wireless and Mobile Network
+Prasyarat : CND3200
+Kursus ini meliputi konsep asas teknologi rangkaian wayarles dan bergerak. Ia turut merangkumi model,
+prinsip reka bentuk, mekanisme dan penyelesaian masalah dalam rangkaian wayarles dan bergerak
+yang selamat.
+This course comprises the basic concept of wireless networks and mobile technologies. It also includes
+models, design principles, mechanisms and solutions used in secured wireless networks.
+CND4300 Rangkaian Tentuan Perisian 3(3+0)
+Software Defined Network
+Prasyarat : CND3201
+Kursus ini merangkumi konsep rangkaian tentuan perisian (SDN). Ia meliputi perubahan pelantar
+rangkaian asas dan aplikasi yang digunakan oleh operasi, pengurusan dan keselamatan yang berbeza
+63dalam SDN. Prinsip, blok binaan dan reka bentuk bagi SDN dan fungsi rangkaian maya (NFV) diberikan
+penekanan.
+This course covers the concept of software defined network (SDN). It includes changes of the underlying
+networking platform and application applied by different operation, management and security in SDN.
+The principles, building block and design of SDN and Network Function Virtualization (NFV) are
+emphasized.
+CND4401 Pengkomputeran Awan 3(3+0)
+Cloud Computing
+Prasyarat : CND3200
+Kursus ini merangkumi konsep pembangunan dan penggunaan perkhidmatan rangkaian dalam
+persekitaran pengkomputeran awan. Perkhidmatan awan berasaskan infrastruktur, pelantar dan
+perisian diberi penekanan.
+This course covers the concept of network service development and use in cloud computing
+environment. Cloud services based on infrastructure, platform and software are emphasized.
+CND4400 Sistem Teragih 3(3+0)
+Distributed Systems
+Prasyarat : CND3200
+Kursus ini merangkumi bidang dalam rangkaian computer. Ia meliputi sistem pelanggan-pelayan,
+pangkalan data teragih, sistem pengoperasian teragih, sistem aplikasi teragih, sistem terbuka dan isu
+terkini dalam sistem teragih.
+This course covers the area of computer networks. It includes client-server systems, distributed
+databases, distributed operating systems, distributed application systems, open systems and recent
+issues in distributed system.
+CND4500 Keselamatan Rangkaian 3(3+0)
+Network Security
+Prasyarat : CND3200
+Kursus ini merangkumi konsep dan prinsip kepada keselamatan rangkaian. Ia meliputi polisi
+keselamatan rangkaian, algoritma kriptografi, protokol dan aplikasi keselamatan rangkaian.
+Keselamatan emel dan keselamatan protokol Internet diberi penekanan.
+This course covers the concepts and principles of network security. It includes network security policy,
+cryptographic algorithms, network security protocols and applications. Email security and Internet
+protocol security are emphasized.
+CND4503 Penilaian Kerentanan dan Pengujian Penembusan 3(3+0)
+Vulnerability Assessment and Penetration Testing
+Prasyarat : CND4500 atau CCS4500
+Kursus ini meliputi asas dan teori sokongan dalam memahami cara di mana sistem rangkaian komputer
+boleh diserang dan diceroboh dengan mempergunakan kerentanan sistem. Ia merangkumi beberapa
+prinsip dan kaedah untuk menaksir dan menilai keselamatan rangkaian secara beretika.
+This course covers the foundations and theoretical underpinnings for an understanding of the way in
+which computer network systems can be attacked by using vulnerabilities in the system. It includes a
+number of principles and methods to evaluate and assess network security ethically.
+CND4504 Teknologi Blok Rantai 3(3+0)
+Blockchain Technology
+Prasyarat : CND4500 atau CCS4500
+Kursus ini meliputi definisi, ciri, jenis dan faedah teknologi blok rantai bersama dengan mekanisme
+konsensus yang menjadi teras teknologi blok rantai. Ia merangkumi konsep desentralisasi, pelbagai
+kaedah dan pelantar yang digunakan di dalam pelbagai industri. Teknik kriptografi dan penggunaan
+kontrak pintar untuk pengembangan aplikasi blok rantai juga diberi penekanan.
+This course covers the definitions, features, types and benefits of blockchain technology along with
+consensus mechanism that are the core of blockchain technology. It includes decentralization concept,
+various methods and platforms that are used in various industries. The cryptographic techniques and
+usage of smart contracts for the development of blockchain applications are emphasized.
+CND4901 Latihan Industri 12(0+12)
+Industrial Training
+Prasyarat : Dengan Kebenaran Jabatan
+Kursus ini mendedahkan pelajar kepada persekitaran kerja yang sebenar di industri/organisasi. Latihan
+merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa di tempat
+kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan.
+This course exposes the students to real working environment in industries/organizations. Training
+includes application of the theoretical and practical aspects that have been studied with current practices
+in the workplace. Problem solving and communication skills are also emphasized.
+CND4949 Projek Bacelor 6(0+6)
+Bachelor Project
+Prasyarat : Dengan Kebenaran Jabatan
+Kursus ini merangkumi aspek perancangan dan pelaksanaan projek. Ini termasuklah pemilihan tajuk,
+melaksanakan kajian kritis, mereka bentuk dan melaksanakan strategi kerja, mengumpul dan
+menganalisis data, serta mendokumentasi dan membentangkan hasil projek.
+This course covers the aspects of planning and executing project. These include title selection,
+conducting critical review, designing and performing work strategy, collecting and analysing data,
+documenting and presenting project output.
+SINOPSIS KURSUS │COURSE SYNOPSIS
+Jabatan Kejuruteraan Perisian dan Sistem Maklumat│
+Department of Software Engineering and Information System
+SSW3001 Kejuruteraan Perisian 3(3+0)
+Software Engineering
+Prasyarat : CCS3101
+Kursus ini merangkumi pengetahuan asas dan kemahiran dalam kejuruteraan perisian. Prinsip dan
+kaedah kejuruteraan perisian, termasuklah alatan dan amalan kejuruteraan perisian terkini
+dibincangkan. Teknik-teknik analisis keperluan, reka bentuk, pelaksanaan dan pengujian dititikberatkan.
+This course covers the foundation knowledge and skills in software engineering. Software engineering
+principles and methods including emerging software engineering practices and tools are discussed.
+Requirement analysis, design, implementation, and testing techniques are emphasised.
+SSW3200 Keusahawanan Digital 3(2+1)
+Entrepreneurship
+Prasyarat : Tiada
+Kursus ini meliputi konsep dan amalan keusahawanan dalam pembangunan, pelaksanaan dan
+pengaplikasian teknologi digital. Ia merangkumi model perniagaan terkini, perkongsian ekonomi digital,
+strategi inovasi dan komponen rancangan perniagaan. Kemahiran menangani cabaran dan mencari
+peluang perniagaan berasaskan teknologi digital diberi penekanan.
+This course covers concept and practice of entrepreneurship in the development, implementation and
+application of digital technology. It includes relevant business models, digital economy sharing,
+innovative strategies and business plan components. The skills of managing challenges and finding
+business opportunities based on digital technology are emphasized.
+SSW3201 Statistik bagi Sains Komputer 3(3+0)
+Statistics for Computer Science
+Prasyarat : Tiada
+Kursus ini merangkumi konsep asas statistik dan kaedah statistik untuk menganalisis data dan membuat
+inferens. Ia meliputi penggunaan kaedah yang sesuai dalam analisis, membuat keputusan, dan
+membuat tafsiran menggunakan istilah statistik. Penyelesaian masalah dalam sains komputer diberi
+penekanan.
+This course covers the fundamental concepts of statistics and statistical methods to analyze data and
+make inferences. It encompasses the use of appropriate methods in analysis, makes decisions and
+interpretation using statistical terms. Solving problems in computer science is emphasized.
+SSW3301 Kejuruteraan Keperluan Perisian 3(3+0)
+Software Requirements Engineering
+Prasyarat : CCS3100
+Kursus ini meliputi kepentingan keperluan perisian, cara mengumpulkan keperluan perisian yang betul,
+dan mendokumentasi keperluan perisian dengan efektif. Ia termasuk memperincikan model keperluan
+untuk reka bentuk perisian.
+This course covers software requirements considerations, how to gather the right software
+requirements, and document the software requirements effectively. It includes refining the requirements
+model for software design.
+SSW3302 Seni Bina dan Reka Bentuk Perisian 3(3+0)
+Software Architecture and Design
+Prasyarat : SSW3301
+Kursus ini merangkumi konsep, prinsip, dan teknik dalam mereka bentuk perisian yang terdiri dari seni
+bina dan reka bentuk terperinci. Ia meliputi pendekatan pemodelan reka bentuk berorientasikan objek
+berdasarkan keperluan perisian. Gaya seni bina dan evolusi pengkomputeran semasa turut diberi
+penekanan.
+This course covers concepts, principles, and techniques in designing software consisting of architecture
+and detailed design. It includes object-oriented design modeling approach based on the software
+requirements. The architectural style and current computing evolution are also emphasized.
+SSW3305 Pengujian Perisian 3(3+0)
+Software Testing
+Prasyarat : SSW3302
+Kursus ini meliputi konsep asas pengujian perisian. Ia merangkumi aktiviti dan teknik pengujian yang
+bersesuaian dengan perisian yang akan diuji. Metrik dan pengurusan pengujian turut diberi penekanan.
+This course covers fundamental concepts of software testing. It includes testing activities and
+techniques that are appropriate to the software to be tested. Testing metrics and management are also
+emphasized.
+SSW3307 Pengalaman Pengguna dan Antara Muka Pengguna 3(3+0)
+User Experience and User Interface
+Prasyarat : SSW3302 atau SSW3001
+Kursus ini mengandungi konsep pengalaman pengguna dan ciri antara muka pengguna yang baik. Ia
+juga meliputi metodologi dan rangka kerja reka bentuk yang dapat menghasilkan antara muka yang
+boleh guna dan pengalaman pengguna yang positif.
+This course consists of the concept and characteristics of the good user experience and user interface.
+It also covers the methodology and frameworks to produce a usable user interface and a positive user
+experience.
+SSW3308 Pembangunan Aplikasi Web 3(2+1)
+Web Application Development
+Prasyarat : Tiada
+Kursus ini merangkumi konsep asas teknologi Web dan pembangunan aplikasi web. Ia juga meliputi
+rangka kerja, pangkalan data, dan operasi aplikasi Web.
+This course covers the fundamental concepts of web technology and Web applications development. It
+also includes frameworks, database, and operations of Web application.
+SSW3310 Pengurusan Projek Perisian 3(3+0)
+Software Project Management
+Prasyarat : SSW3301 atau SSW3001
+Kursus ini merangkumi fungsi dan tanggungjawab pengurusan perisian dan bagaimana mengurus
+projek pembangunan perisian. Ia meliputi penskedulan dan perancangan projek, penganggaran kos,
+pengurusan risiko, manusia, kualiti, dokumentasi dan komunikasi projek. Penghasilan produk yang
+berkualiti tepat pada masa dan dalam lingkungan belanjawan diberi penekanan.
+This course covers the functions and responsibilities of software management and how to manage
+software development project. It covers project scheduling and planning, cost estimation, and managing
+project related to risk, human, quality, documentation and communication. The production of quality
+product in time and within budget is emphasized.
+SSW3400 Projek Kejuruteraan Perisian Berpasukan 3(2+1)
+Software Engineering Team Project
+Prasyarat : SSW3310
+Kursus ini merangkumi teknik pembangunan projek perisian secara berpasukan. Ia merangkumi fungsi,
+gaya dan model pengurusan pasukan pembangunan perisian yang efektif. Prestasi dan penilaian
+pasukan turut dibincangkan.
+This course covers techniques in software projects development as a team. It comprises functions,
+styles and models for effective software development team management. Team performance and
+evaluation are also discussed.
+SSW3401 Pembangunan Aplikasi Mudah Alih 3(2+1)
+Mobile Application Development
+Prasyarat : CCS3101
+Kursus ini merangkumi konsep, teknik, kerangka dan kaedah terkini dalam pembangunan aplikasi
+mudah alih merentasi pelbagai pelantar dengan satu kod tunggal. Teknologi peranti mudah alih,
+kekangan reka bentuk dan peluang serta pilihan teknologi yang bersesuaian juga turut dibincangkan.
+This course covers the latest concepts, techniques, framework and methods in mobile application
+development across multiple platforms with a single codebase. Mobile devices technology, design
+constraints and opportunities as well as suitable technology options are also discussed.
+SSW3402 Pembangunan Sistem Perusahaan 3(2+1)
+Enterprise Systems Development
+Prasyarat : SSW3308
+Kursus ini merangkumi konsep dalam membangunkan sistem perusahaan. Ia meliputi penggunaan
+teknologi terkini dan seni bina reka bentuk untuk integrasi sistem perusahaan. Asas keselamatan bagi
+sistem perusahaan juga dibincangkan.
+This course covers concept in developing the enterprise system. It includes the application of latest
+technologies architecture for enterprise system integration. Fundamental of security for enterprise
+system is also discussed.
+SSW4201 Metodologi Pembangunan Perisian 3(3+0)
+Software Development Methodology
+Prasyarat : SSW3301
+Kursus ini merangkumi kepelbagaian metodologi, teknik, alatan dan model pembangunan perisian. Ia
+meliputi kaedah tradisional sehingga metodologi pembangunan perisian yang moden. Pendekatan,
+teknik, isu dan cabaran semasa dalam kejuruteraan perisian dibincangkan.
+This course covers the diversity of methodology, technique, tool and software development model. It
+encompasses traditional methodology to modern software development methodologies. Approach,
+technique, issue and challenges in contemporary software engineering are discussed.
+SSW4202 Etika dalam Pengkomputeran 3(3+0)
+Ethics in Computing
+Prasyarat : CCS3100
+Kursus ini meliputi konsep etika dalam pengkomputeran dan kaitannya dengan teknologi maklumat. Ini
+termasuklah kod etika professional dan polisi yang berkaitan serta isu-isu seperti, harta intelek, hak
+cipta, cetak rompak, keselamatan siber, privasi, dan isu sosial. Kepentingan etika terhadap semua
+lapisan pengguna komputer seperti pembangun perisian, para profesional, ahli perniagaan dan
+pengguna akhir juga diberi penekanan.
+This course covers the concepts of ethics in computerization and its relation to information
+technology. This includes professional code of ethics and related policies as well as issues such as
+intellectual properties, copyright, piracy, cyber security, and social issues. The importance of ethics to
+all levels of computer users such as professional, software developers, businessmen and end users are
+also emphasized.
+SSW4303 Kaedah Formal dalam Pembangunan Perisian 3(3+0)
+Formal Methods in Software Development
+Prasyarat: SSW3301 atau SSW3001
+Kursus ini merangkumi kaedah formal dalam pembangunan perisian yang dapat digunakan dalam
+membina perisian. Penggunaan ini termasuk menspesifikasi dan mentahkik perisian. Beberapa bahasa
+kaedah formal dibincangkan.
+This course covers formal methods which can be used in developing software. The usage includes
+specifying and verifying software. Several formal method languages are discussed.
+SSW4351 Penyelenggaraan dan Evolusi Perisian 3(3+0)
+Software Maintenance and Evolution
+Prasyarat: SSW3301
+Kursus ini meliputi konsep, proses dan teknik-teknik yang menyokong kebolehan sesebuah sistem
+perisian untuk berubah, berkembang dan bertahan. Ia meliputi perancangan, proses, teknik, alatan dan
+pengawalan perubahan perisian. Isu-isu berkaitan masa depan dan perubahan teknologi
+berorientasikan objek terhadap penyelenggaraan perisian juga dibincangkan.
+This course comprises concept, process and techniques, which can support the ability of a software
+system to change, evolve and sustain. It covers plans, processes, techniques, tools and changed-control
+software. Issues related to software maintenance, which include object-oriented software maintenance
+and the future of software maintenance are also discussed.
+SSW4353 Pembangunan Perisian Berasaskan Komponen 3(3+0)
+Component Based Software Development
+Prasyarat: SSW3302
+Kursus ini merangkumi konsep guna semula dan pembangunan perisian berasaskan komponen.
+Kursus ini turut memperkenalkan teknologi, model dan seni bina komponen, serta perkhidmatan web.
+Isu kejuruteraan perisian berasaskan komponen turut dibincangkan.
+This course covers concept of reusability and component-based software engineering. The course also
+introduces component technologies, models and architecture, as well as web services. Issues on
+component-based software engineering are also discussed.
+SSW4355 Kejuruteraan Perisian Masa Nyata 3(3+0)
+Real-Time Software Engineering
+Prasyarat: SSW3302
+Kursus ini merangkumi pengetahuan asas dalam kejuruteraan perisian bagi perisian masa nyata.
+Prinsip dan kaedah kejuruteraan perisian masa nyata termasuk praktis terkini dalam pembangunan
+perisian masa nyata dibincangkan. Teknik analisis keperluan, reka bentuk, verifikasi dan validasi juga
+diberi penekanan.
+This course covers foundation knowledge and skills in real-time software engineering. Real-time
+software engineering principles and methods including current and emerging software engineering
+practices in real-time software development are discussed. Requirement analysis, design, verification
+and validation techniques are also emphasized.
+SSW4356 Pembangunan Perisian Selamat 3(3+0)
+Secure Software Development
+Prasyarat: CCS3300
+Kursus ini merangkumi metodologi pembangunan perisian selamat dan mengkaji strategi untuk
+mengintegrasikan prinsip keselamatan ke dalam kitaran hayat pembangunan perisian. Ia termasuk
+keselamatan dalam kejuruteraan keperluan, reka bentuk selamat, analisis risiko, dan membangunkan
+kod selamat. Pendekatan dalam pengaturcaraan selamat berdasarkan bahasa pengaturcaraan dan
+pakej perisian yang sesuai dibincangkan.
+This course covers secure software development methodologies and examines strategies to integrate
+security principles into the software development lifecycle. It includes security in requirements
+engineering, secure designs, risk analysis, and developing secure code. Approaches in secure
+programming based on suitable programming language and software packages are discussed.
+SSW4357 Pembangunan Aplikasi dalam Pengkomputeran Awan 3(3+0)
+Application Development in Cloud Computing
+Prasyarat: CCS3101 & CND3200
+Kursus ini mengandungi konsep, prinsip dan teknologi berkaitan pengkomputeran awan. Ini
+termasuklah model seni bina pengkomputeran awan dan pembangunan aplikasi menggunakan
+paradigma pengkomputeran awan. Kursus ini juga merangkumi pelbagai perkhidmatan
+pengkomputeran awan dan pelantar untuk membangun dan mengatur aplikasi dalam persekitaran
+awan.
+This course encompasses concept, principles and technologies related to cloud computing. This
+includes different architectural models of cloud computing and its applications development using the
+cloud computing paradigm. The course also covers different cloud computing services and platforms
+to develop and deploy application on cloud environment.
+SSW4401 Perdagangan Elektronik 3(3+0)
+Electronic Commerce
+Prasyarat: SSW3308
+Kursus ini merangkumi konsep dan falsafah perdagangan elektronik. Teknologi yang digunakan
+dalam ekonomi digital yang meliputi sistem pembayaran elektronik, perbankan elektronik dan
+penerbitan digital dibincangkan. Pembangunan aplikasi dan penggunaan teknologi dalam perniagaan
+diberi penekanan.
+This course covers the concepts and philosophy of electronic commerce. Technologies used in the
+digital economy which includes electronic payment system, electronic banking, and digital publishing
+are discussed. Application development and technology utilization in business are emphasized.
+SSW4901 Latihan Industri 12(0+12)
+Industrial Training
+Prasyarat: Dengan Kebenaran Jabatan
+Melalui kursus ini, pelajar didedahkan kepada persekitaran kerja yang sebenar di industri/organisasi.
+Latihan merangkumi aplikasi aspek teori dan praktikal yang telah dipelajari dengan amalan semasa
+di tempat kerja. Kemahiran menyelesaikan masalah dan komunikasi turut diberi penekanan.
+In this course, students are exposed to real working environment in industries/organizations. Training
+includes application of the theoretical and practical aspects that have been studied with current
+practices in the workplace. Problem solving and communication skills are also emphasized.
+SSW4949 Projek Bacelor 6(0+6)
+Bachelor Project
+Prasyarat: Dengan Kebenaran Jabatan
+Kursus ini merangkumi aspek perancangan dan pelaksanaan projek. Ini termasuklah pemilihan tajuk,
+melaksanakan kajian kritis, mereka bentuk dan melaksanakan strategi kerja, mengumpul dan
+menganalisis data, serta mendokumentasi dan membentangkan hasil projek.
+This course covers the aspects of planning and executing project. These include title selection,
+conducting critical review, designing and performing work strategy, collecting and analysing data,
+documenting and presenting project output.
+70

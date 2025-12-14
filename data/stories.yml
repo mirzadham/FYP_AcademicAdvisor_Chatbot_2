@@ -2,29 +2,45 @@ version: "3.1"
 
 stories:
 
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  # --- Story 1: The Happy Path (Prerequisite Check) ---
+  - story: student asks for prerequisite
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_prerequisite
+        entities:
+          - course_code: "CSC4600"  # Example entity for training
+      - action: action_provide_prerequisite
+      - intent: thank_you
+      - action: utter_thank_you
 
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  # --- Story 2: The Course Info Path ---
+  - story: student asks for course details
+    steps:
+      - intent: ask_course_info
+      - action: action_provide_course_info
+      - intent: thank_you
+      - action: utter_thank_you
 
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  # --- Story 3: The Registration Deadline Path ---
+  - story: student asks for deadline
+    steps:
+      - intent: ask_registration_deadline
+      - action: action_provide_deadline
+      - intent: goodbye
+      - action: utter_goodbye
+
+  # --- Story 4: The Exam Schedule Path ---
+  - story: student asks for exam date
+    steps:
+      - intent: ask_exam_schedule
+      - action: action_provide_exam_schedule
+
+  # --- Story 5: Context Switch (The "Smart" Bot) ---
+  # This proves to your supervisor the bot can handle changing topics
+  - story: student asks prerequisite then switches to deadline
+    steps:
+      - intent: ask_prerequisite
+      - action: action_provide_prerequisite
+      - intent: ask_registration_deadline
+      - action: action_provide_deadline
