@@ -26,7 +26,7 @@ stories:
   - story: student asks for deadline
     steps:
       - intent: ask_registration_deadline
-      - action: action_provide_deadline
+      - action: utter_ask_registration_deadline
       - intent: goodbye
       - action: utter_goodbye
 
@@ -34,7 +34,7 @@ stories:
   - story: student asks for exam date
     steps:
       - intent: ask_exam_schedule
-      - action: action_provide_exam_schedule
+      - action: utter_ask_exam_schedule
 
   # --- Story 5: Context Switch (The "Smart" Bot) ---
   # This proves to your supervisor the bot can handle changing topics
@@ -43,4 +43,4 @@ stories:
       - intent: ask_prerequisite
       - action: action_provide_prerequisite
       - intent: ask_registration_deadline
-      - action: action_provide_deadline
+      - action: utter_ask_registration_deadline
