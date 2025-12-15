@@ -1,6 +1,7 @@
 """
 Custom actions for the Academic Advisor Chatbot.
 Connects to academic.db to provide course information and prerequisites.
+Integrates with Google Gemini AI for enhanced responses.
 """
 
 from typing import Any, Text, Dict, List
@@ -8,6 +9,11 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import sqlite3
 import os
+from dotenv import load_dotenv
+import google.generativeai as genai
+
+# Load environment variables
+load_dotenv()
 
 
 class ActionProvidePrerequisite(Action):
@@ -168,5 +174,59 @@ class ActionProvideCourseInfo(Action):
             
         except Exception as e:
             dispatcher.utter_message(text=f"Sorry, I encountered an error while retrieving course information: {str(e)}")
+        
+        return []
+
+
+class ActionGeminiResponse(Action):
+    """
+    Action to handle general queries using Google Gemini AI.
+    This provides intelligent responses for questions not covered by specific actions.
+    """
+
+    def name(self) -> Text:
+        return "action_gemini_response"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        # Get API key from environment
+        api_key = os.getenv('GEMINI_API_KEY')
+        
+        if not api_key or api_key == 'your_gemini_api_key_here':
+            dispatcher.utter_message(text="⚠️ Gemini API key is not configured. Please set up your GEMINI_API_KEY in the .env file.")
+            return []
+        
+        # Get the user's message
+        user_message = tracker.latest_message.get('text', '')
+        
+        if not user_message:
+            dispatcher.utter_message(text="I didn't receive any message. Please try again.")
+            return []
+        
+        try:
+            # Configure Gemini
+            genai.configure(api_key=api_key)
+            
+            # Create the model - using gemini-2.5-flash for better quota limits
+            model = genai.GenerativeModel('gemini-2.5-flash')
+            
+            # Prepare context for academic advisor chatbot
+            context = """You are an academic advisor chatbot helping students with their course-related queries.
+Provide helpful, accurate, and concise responses. If the question is about specific courses, 
+suggest that they provide a course code for detailed information."""
+            
+            # Generate response
+            prompt = f"{context}\n\nStudent Question: {user_message}\n\nResponse:"
+            response = model.generate_content(prompt)
+            
+            if response and response.text:
+                dispatcher.utter_message(text=f"🤖 {response.text}")
+            else:
+                dispatcher.utter_message(text="I'm sorry, I couldn't generate a response. Please try rephrasing your question.")
+        
+        except Exception as e:
+            dispatcher.utter_message(text=f"Sorry, I encountered an error while processing your request: {str(e)}")
         
         return []

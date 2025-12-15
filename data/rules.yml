@@ -146,3 +146,9 @@ rules:
     steps:
       - intent: thank_you
       - action: utter_thank_you
+
+  # --- AI-Powered Fallback with Gemini ---
+  - rule: Use Gemini for unrecognized queries
+    steps:
+      - intent: nlu_fallback
+      - action: action_gemini_response
