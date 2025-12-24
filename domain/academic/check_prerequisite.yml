@@ -1,0 +1,47 @@
+version: "3.1"
+
+actions:
+  - check_prerequisites
+
+slots:
+  course_code:
+    type: text
+    mappings:
+      - type: from_llm
+  prereq_list:
+    type: text
+    mappings:
+      - type: custom
+  has_prerequisites:
+    type: bool
+    mappings:
+      - type: custom
+
+responses:
+  utter_ask_course_code:
+    - text: "Which course would you like to check prerequisites for? Please provide the course code (e.g., CCS3101, CSC4600)."
+      metadata:
+        rephrase: true
+  
+  utter_prereq_result:
+    - text: |
+        📚 **{course_code}** ({course_name})
+        
+        📋 **Prerequisites:**
+        {prereq_list}
+        
+        Make sure you have completed these courses before enrolling!
+  
+  utter_no_prerequisites:
+    - text: |
+        📚 **{course_code}** ({course_name})
+        
+        ✅ **No prerequisites required!**
+        
+        You can enroll in this course directly.
+  
+  utter_course_not_found:
+    - text: |
+        ❌ Sorry, I couldn't find course **{course_code}** in the database.
+        
+        Please check the course code and try again. Example: CCS3101, CSC4600

@@ -1,0 +1,22 @@
+version: "3.1"
+
+responses:
+  utter_help:
+    - text: |
+        🎓 **Here's how I can help you:**
+        
+        📚 **Course Information**
+        • "Tell me about CCS3101" — Get course synopsis and credits
+        • "What are the prerequisites for CSC4600?" — Check required courses
+        
+        📋 **Academic Procedures**
+        • Registration deadlines and procedures
+        • Dropping courses and deferment
+        • Credit transfer and program changes
+        
+        🎯 **Other Topics**
+        • Graduation requirements
+        • Industrial training information
+        • Exam schedules and regulations
+        
+        Just ask me anything about your academic journey!

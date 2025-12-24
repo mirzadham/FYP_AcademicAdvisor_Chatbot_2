@@ -1,0 +1,18 @@
+flows:
+  get_course_info:
+    description: |
+      Get detailed information about a course including its name, credit hours,
+      synopsis, and prerequisites. Helps students understand course content.
+    name: get course information
+    steps:
+      - collect: course_code
+        description: The course code to get information for (e.g., CCS3101, CSC4600)
+      - action: get_course_details
+        next:
+          - if: "slots.return_value = 'course_not_found'"
+            then:
+              - action: utter_course_not_found
+                next: END
+          - else:
+              - action: utter_course_details
+                next: END

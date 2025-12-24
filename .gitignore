@@ -6,6 +6,7 @@ __pycache__/
 .Python
 env/
 venv/
+venv_backup/
 ENV/
 build/
 develop-eggs/
@@ -45,3 +46,7 @@ Thumbs.db
 
 # Rasa logs
 logs/
+
+# Backups
+*.backup
+domain.yml.backup

@@ -1,0 +1,20 @@
+version: "3.1"
+
+responses:
+  utter_hello:
+    - text: |
+        👋 Hello! I'm your **UPM Academic Advisor Chatbot**.
+        
+        I can help you with:
+        • 📚 Course information and synopses
+        • 📋 Prerequisites for courses
+        • 📅 Registration deadlines and procedures
+        • 🎓 Graduation requirements
+        
+        How can I assist you today?
+    - text: |
+        Hi there! 👋 Welcome to the UPM Academic Advisor.
+        
+        I'm here to help with course info, prerequisites, and academic procedures.
+        
+        What would you like to know?

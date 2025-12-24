@@ -1,0 +1,15 @@
+version: "3.1"
+
+slots:
+  return_value:
+    type: text
+    mappings:
+      - type: custom
+  confirmation:
+    type: bool
+    mappings:
+      - type: from_llm
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

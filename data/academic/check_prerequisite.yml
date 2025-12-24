@@ -1,0 +1,22 @@
+flows:
+  check_prerequisite:
+    description: |
+      Check prerequisites for a course. This flow helps students understand
+      which courses they need to complete before enrolling in a specific course.
+    name: check course prerequisites
+    steps:
+      - collect: course_code
+        description: The course code to check prerequisites for (e.g., CCS3101, CSC4600)
+      - action: check_prerequisites
+        next:
+          - if: "slots.return_value = 'course_not_found'"
+            then:
+              - action: utter_course_not_found
+                next: END
+          - if: slots.has_prerequisites
+            then:
+              - action: utter_prereq_result
+                next: END
+          - else:
+              - action: utter_no_prerequisites
+                next: END

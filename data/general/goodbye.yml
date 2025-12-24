@@ -1,0 +1,6 @@
+flows:
+  goodbye:
+    description: Say goodbye to the user when they want to end the conversation
+    name: goodbye
+    steps:
+      - action: utter_goodbye

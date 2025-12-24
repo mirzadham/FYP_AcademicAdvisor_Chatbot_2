@@ -1,0 +1,30 @@
+version: "3.1"
+
+actions:
+  - get_course_details
+
+slots:
+  course_name:
+    type: text
+    mappings:
+      - type: custom
+  credits:
+    type: float
+    mappings:
+      - type: custom
+  synopsis:
+    type: text
+    mappings:
+      - type: custom
+
+responses:
+  utter_course_details:
+    - text: |
+        📚 **{course_code}**: {course_name}
+        
+        💳 **Credit Hours:** {credits}
+        
+        📋 **Prerequisites:** {prereq_list}
+        
+        📖 **Synopsis:**
+        {synopsis}
