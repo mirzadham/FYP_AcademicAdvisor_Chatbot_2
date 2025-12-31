@@ -1,0 +1,8 @@
+flows:
+  system_issues:
+    description: |
+      Explain how to handle SMP/portal issues, login problems, password reset.
+      Examples: "cannot login SMP", "forgot password", "portal not working", "system error"
+    name: system issues information
+    steps:
+      - action: utter_system_issues

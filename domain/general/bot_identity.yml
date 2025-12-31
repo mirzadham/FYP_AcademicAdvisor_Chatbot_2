@@ -1,0 +1,13 @@
+version: "3.1"
+
+responses:
+  utter_bot_identity:
+    - text: |
+        🤖 Yes, I'm an AI-powered academic advisor chatbot!
+        
+        I'm here to help UPM students with:
+        • Course information and prerequisites
+        • Registration and academic procedures
+        • General academic guidance
+        
+        How can I assist you today?

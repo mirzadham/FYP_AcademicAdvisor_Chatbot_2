@@ -1,0 +1,12 @@
+version: "3.1"
+
+responses:
+  utter_thank_you:
+    - text: |
+        You're welcome! 😊 Happy to help.
+        
+        Feel free to ask if you have more questions about courses, registration, or academic procedures!
+    - text: |
+        No problem! 👍 Glad I could assist.
+        
+        Is there anything else you'd like to know?

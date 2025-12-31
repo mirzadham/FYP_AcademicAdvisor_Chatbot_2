@@ -1,0 +1,130 @@
+version: "3.1"
+
+responses:
+  utter_deferment_info:
+    - text: |
+        📋 **Deferment (Leave of Absence)**
+        
+        **Procedure:**
+        1. Get deferment form from Faculty
+        2. Submit with supporting documents
+        3. Obtain Dean's approval
+        
+        **Deadline:** Before Week 3 of semester
+        **Duration:** Maximum 2 semesters
+        
+        ⚠️ May affect PTPTN/scholarships. Contact Student Affairs for details.
+
+  utter_change_program:
+    - text: |
+        🔄 **Changing Program/Major**
+        
+        **Requirements:**
+        • Minimum CGPA (usually 2.5+)
+        • Completed at least 1 semester
+        • Available slots in target program
+        
+        **Procedure:**
+        1. Get application form from Registry
+        2. Get approval from both faculties
+        3. Submit before deadline
+        
+        💡 Credits may transfer depending on course equivalence.
+
+  utter_repeat_policy:
+    - text: |
+        📚 **Repeat/Failed Subject Policy**
+        
+        **Key Points:**
+        • Failed subjects must be repeated
+        • Core subjects: Must repeat immediately when offered
+        • Maximum grade after repeat: Usually capped (check faculty rules)
+        
+        **GPA Impact:**
+        • Both grades may appear on transcript
+        • Latest attempt used for CGPA calculation
+        
+        ⚠️ Repeated failures may lead to probation.
+
+  utter_grade_appeal:
+    - text: |
+        📝 **Grade Appeal/Review**
+        
+        **Procedure:**
+        1. Submit appeal form to Faculty
+        2. Pay review fee (varies)
+        3. Wait for recheck result
+        
+        **Deadline:** Usually 2 weeks after results release
+        
+        **Note:** Appeal may result in same, higher, or lower grade.
+        
+        💡 Consult your lecturer first before formal appeal.
+
+  utter_probation_info:
+    - text: |
+        ⚠️ **Academic Probation**
+        
+        **Status Levels:**
+        • **P1:** CGPA 1.50 - 1.99 (1st warning)
+        • **P2:** Still below 2.00 after P1
+        • **P3:** Still below 2.00 after P2
+        • **Dismissed:** After P3 if CGPA still below 2.00
+        
+        **Requirements During Probation:**
+        • Limited credit hours (usually max 15)
+        • Must maintain minimum semester GPA
+        
+        💡 Seek help from academic advisor immediately!
+
+  utter_credit_transfer:
+    - text: |
+        📋 **Credit Transfer/Exemption**
+        
+        **Eligible For:**
+        • Diploma graduates
+        • Transfer students from other universities
+        
+        **Procedure:**
+        1. Submit exemption form with transcript
+        2. Provide syllabus of previous courses
+        3. Faculty evaluates equivalence
+        
+        **Limits:** Usually max 30% of program credits
+        
+        ⚠️ Apply within first semester of enrollment.
+
+  utter_elective_options:
+    - text: |
+        📚 **Elective Courses**
+        
+        **Types:**
+        • **Program Electives:** Within your field
+        • **Faculty Electives:** Any course in faculty
+        • **University Electives:** Any faculty (limited)
+        
+        **Popular Categories:**
+        • Language courses (Japanese, Mandarin, etc.)
+        • Entrepreneurship
+        • Sports & Recreation
+        
+        💡 Check SMP for available electives each semester.
+
+  utter_industrial_training:
+    - text: |
+        🏢 **Industrial Training (LI)**
+        
+        **Requirements:**
+        • Usually in Year 3 or 4
+        • Minimum credits completed (check program)
+        • Must not be on probation
+        
+        **Duration:** 12-16 weeks (varies by program)
+        
+        **Procedure:**
+        1. Attend LI briefing session
+        2. Find and apply to companies
+        3. Submit placement confirmation
+        4. Complete LI report and logbook
+        
+        💡 Start searching for placement 6 months early!

@@ -1,0 +1,8 @@
+flows:
+  exam_schedule:
+    description: |
+      Provide information about exam dates, times, venues, and timetable.
+      Examples: "when is my exam?", "exam date for CSC3100", "exam timetable"
+    name: exam schedule information
+    steps:
+      - action: utter_exam_schedule

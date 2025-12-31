@@ -1,0 +1,8 @@
+flows:
+  credit_transfer:
+    description: |
+      Explain credit transfer/exemption procedure for diploma or transfer students.
+      Examples: "how to apply credit exemption?", "transfer credits from diploma"
+    name: credit transfer information
+    steps:
+      - action: utter_credit_transfer

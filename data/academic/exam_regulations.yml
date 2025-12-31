@@ -1,0 +1,8 @@
+flows:
+  exam_regulations:
+    description: |
+      Explain exam rules, dress code, what to bring, and attendance requirements.
+      Examples: "exam dress code", "what can I bring to exam?", "exam rules"
+    name: exam regulations information
+    steps:
+      - action: utter_exam_regulations

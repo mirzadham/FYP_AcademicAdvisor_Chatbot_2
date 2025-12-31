@@ -1,0 +1,48 @@
+version: "3.1"
+
+responses:
+  utter_registration_deadline:
+    - text: |
+        📅 **Course Registration Deadlines**
+        
+        **Add/Drop Period:** Usually Week 1-2 of semester
+        
+        **Important Notes:**
+        • Check SMP portal for exact dates each semester
+        • Late registration may incur penalties
+        • Ensure fees are paid to avoid registration block
+        
+        💡 Visit the Academic Calendar on UPM website for current dates.
+
+  utter_drop_course:
+    - text: |
+        📋 **Dropping/Withdrawing from a Course**
+        
+        **Procedure:**
+        1. Apply through SMP portal
+        2. Get advisor's approval
+        3. Submit before deadline
+        
+        **Types of Withdrawal:**
+        • **Week 1-2:** Full refund, no record
+        • **Week 3-7:** Partial refund, "W" grade
+        • **After Week 7:** No refund, may affect GPA
+        
+        ⚠️ Dropping courses may affect PTPTN/scholarship eligibility.
+
+  utter_graduation_requirements:
+    - text: |
+        🎓 **Graduation Requirements**
+        
+        **Credit Hours:** 120-130 credits (varies by program)
+        
+        **Minimum CGPA:** 2.00
+        
+        **Required Components:**
+        • Complete all core subjects
+        • Complete electives requirement
+        • Pass Final Year Project (FYP)
+        • Meet MUET Band requirement
+        • Complete Industrial Training (LI)
+        
+        💡 Check with your faculty for program-specific requirements.

@@ -1,0 +1,9 @@
+flows:
+  registration_deadline:
+    description: |
+      Provide information about course registration deadlines, add/drop periods,
+      and important dates. Examples: "when is registration deadline?", 
+      "last day to add subjects", "add drop period"
+    name: registration deadline information
+    steps:
+      - action: utter_registration_deadline

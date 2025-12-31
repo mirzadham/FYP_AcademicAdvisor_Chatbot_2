@@ -1,0 +1,70 @@
+version: "3.1"
+
+responses:
+  utter_convocation_info:
+    - text: |
+        🎓 **Convocation/Graduation Ceremony**
+        
+        **Registration:**
+        • Done through SMP portal
+        • Usually opens 2 months before ceremony
+        
+        **Requirements:**
+        • Complete all graduation requirements
+        • Clear all outstanding fees
+        • Register within deadline
+        
+        **Attire:**
+        • Rent graduation robe from appointed vendor
+        • Follow dress code guidelines
+        
+        **Guest Tickets:**
+        • Usually 2-4 tickets per graduate
+        • Additional tickets may be available
+        
+        🎉 Congratulations on reaching this milestone!
+
+  utter_career_prospects:
+    - text: |
+        💼 **Career Prospects (Computer Science)**
+        
+        **Popular Career Paths:**
+        • Software Developer/Engineer
+        • Data Scientist/Analyst
+        • Cybersecurity Specialist
+        • Web/Mobile Developer
+        • Cloud/DevOps Engineer
+        • AI/ML Engineer
+        
+        **Industries:**
+        • Tech companies (Google, Microsoft, etc.)
+        • Banking & Finance
+        • E-commerce
+        • Government agencies
+        • Startups
+        
+        **Demand:** High - CS graduates are in demand globally!
+        
+        💡 Build projects and get certifications to stand out.
+
+  utter_mental_health_support:
+    - text: |
+        💚 **We're Here For You**
+        
+        I'm sorry you're going through a difficult time. Your wellbeing matters.
+        
+        **Immediate Support:**
+        📞 **Malaysia Mental Health Line:** 03-2935 9935
+        📞 **Befrienders:** 03-7956 8145 (24 hours)
+        
+        **UPM Resources:**
+        • **Counseling Services:** Pusat Kaunseling UPM
+        • **Location:** Bangunan Hal Ehwal Pelajar
+        • **Hours:** Mon-Fri, 8am-5pm
+        
+        **Remember:**
+        • It's okay to ask for help
+        • Taking a break is okay
+        • You are not alone
+        
+        ❤️ Please reach out to someone - a friend, family, or counselor.

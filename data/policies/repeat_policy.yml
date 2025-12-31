@@ -1,0 +1,8 @@
+flows:
+  repeat_policy:
+    description: |
+      Explain policy for repeating failed subjects, grade replacement, and limits.
+      Examples: "I failed a subject", "how to repeat course?", "repeat grade policy"
+    name: repeat policy information
+    steps:
+      - action: utter_repeat_policy

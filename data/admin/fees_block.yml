@@ -1,0 +1,8 @@
+flows:
+  fees_block:
+    description: |
+      Explain registration block due to unpaid fees and how to resolve it.
+      Examples: "my registration is blocked", "cannot register because of fees", "SMP blocked"
+    name: fees block information
+    steps:
+      - action: utter_fees_block

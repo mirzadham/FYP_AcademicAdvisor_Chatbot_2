@@ -1,0 +1,8 @@
+flows:
+  bot_identity:
+    description: |
+      Respond when user asks if this is a bot, robot, AI, or human.
+      Examples: "are you a bot?", "are you human?", "are you AI?"
+    name: bot identity response
+    steps:
+      - action: utter_bot_identity

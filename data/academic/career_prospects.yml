@@ -1,0 +1,8 @@
+flows:
+  career_prospects:
+    description: |
+      Provide career guidance, job prospects, and industry information for graduates.
+      Examples: "what jobs can I get?", "career prospects for CS", "industry for computer science"
+    name: career prospects information
+    steps:
+      - action: utter_career_prospects

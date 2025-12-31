@@ -1,0 +1,83 @@
+version: "3.1"
+
+responses:
+  utter_fees_block:
+    - text: |
+        💰 **Registration Block (Fees)**
+        
+        **Reasons for Block:**
+        • Outstanding tuition fees
+        • Payment not yet processed
+        
+        **To Unblock:**
+        1. Pay minimum required amount
+        2. Upload payment proof to SMP
+        3. Wait 24-48 hours for system update
+        
+        💡 Contact Bursary if payment not reflected after 3 days.
+
+  utter_class_full:
+    - text: |
+        📚 **Full Class/Section**
+        
+        **Options:**
+        • Try other available sections
+        • Check during add/drop period (seats may open)
+        • Request quota increase from lecturer
+        
+        **Procedure for Quota Request:**
+        1. Email lecturer with justification
+        2. If approved, get signed form
+        3. Submit to Faculty office
+        
+        ⚠️ No guarantee of approval - have backup subjects ready.
+
+  utter_timetable_clash:
+    - text: |
+        📅 **Timetable Clash**
+        
+        **Solutions:**
+        • Switch to different section of one subject
+        • Drop one subject and take it next semester
+        • Request special arrangement (rare)
+        
+        **Tips:**
+        • Plan your registration early
+        • Have backup sections ready
+        • Check timetable before finalizing
+        
+        ⚠️ Attending both clashing classes is NOT allowed.
+
+  utter_system_issues:
+    - text: |
+        🖥️ **System/Portal Issues**
+        
+        **Common Solutions:**
+        • Clear browser cache
+        • Try different browser (Chrome recommended)
+        • Check if system is under maintenance
+        
+        **Password Reset:**
+        • Use "Forgot Password" on login page
+        • Contact IT Helpdesk if still unable
+        
+        📞 **IT Helpdesk:** Contact your faculty's IT support
+        
+        💡 Try during off-peak hours (early morning/late night).
+
+  utter_verification_letter:
+    - text: |
+        📄 **Student Verification Letter**
+        
+        **Types Available:**
+        • Enrollment confirmation
+        • Active student status
+        • For PTPTN/scholarship/bank
+        
+        **How to Get:**
+        1. Login to SMP portal
+        2. Go to "Surat Pengesahan" section
+        3. Download and print
+        
+        **For Custom Letters:**
+        Contact Registry/Faculty office with specific requirements.

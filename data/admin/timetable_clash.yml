@@ -1,0 +1,8 @@
+flows:
+  timetable_clash:
+    description: |
+      Explain how to handle timetable/schedule conflicts between subjects.
+      Examples: "timetable clash", "two subjects same time", "schedule conflict"
+    name: timetable clash information
+    steps:
+      - action: utter_timetable_clash

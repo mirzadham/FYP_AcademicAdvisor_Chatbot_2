@@ -1,0 +1,8 @@
+flows:
+  convocation_info:
+    description: |
+      Provide information about graduation/convocation ceremony, registration, and attire.
+      Examples: "when is convocation?", "graduation ceremony", "convo registration"
+    name: convocation information
+    steps:
+      - action: utter_convocation_info

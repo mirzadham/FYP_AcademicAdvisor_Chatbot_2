@@ -1,0 +1,8 @@
+flows:
+  deans_list:
+    description: |
+      Explain Dean's List requirements, rewards, and CGPA criteria.
+      Examples: "what is Dean's List?", "anugerah dekan", "GPA for dean list"
+    name: dean's list information
+    steps:
+      - action: utter_deans_list

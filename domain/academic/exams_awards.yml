@@ -1,0 +1,71 @@
+version: "3.1"
+
+responses:
+  utter_exam_schedule:
+    - text: |
+        📅 **Exam Schedule**
+        
+        **How to Check:**
+        1. Login to SMP portal
+        2. Go to "Jadual Peperiksaan"
+        3. View your personalized exam timetable
+        
+        **Includes:**
+        • Date and time
+        • Venue/Hall
+        • Seat number
+        
+        ⚠️ Timetable usually released 2-3 weeks before exams.
+
+  utter_exam_regulations:
+    - text: |
+        📋 **Exam Regulations**
+        
+        **Dress Code:**
+        • Formal/smart casual attire
+        • No slippers, shorts, or sleeveless
+        
+        **Must Bring:**
+        • Student ID card (matric card)
+        • Stationery (pens, pencils)
+        • Calculator (if permitted)
+        
+        **NOT Allowed:**
+        • Mobile phones (must be OFF and stored)
+        • Notes/books (unless open book exam)
+        
+        ⚠️ Arrive 30 mins early. Late entry may be denied.
+
+  utter_deans_list:
+    - text: |
+        🏆 **Dean's List (Anugerah Dekan)**
+        
+        **Requirements:**
+        • Semester GPA: 3.50 or above
+        • No failed subjects that semester
+        • Minimum credit hours (usually 12+)
+        
+        **Benefits:**
+        • Certificate from Dean
+        • Recognition in academic records
+        • Some faculties offer monetary rewards
+        
+        💡 Aim high every semester - it looks great on your resume!
+
+  utter_muet_requirement:
+    - text: |
+        📝 **MUET Requirement**
+        
+        **Minimum Band for Graduation:**
+        • Most programs: Band 3
+        • Some programs: Band 4 (check with faculty)
+        
+        **If Below Requirement:**
+        • Must retake MUET before graduation
+        • Register through Malaysian Examination Council
+        
+        **Alternatives (Some Programs):**
+        • IELTS (minimum score varies)
+        • TOEFL (check equivalency)
+        
+        💡 Take MUET early so you have time to retake if needed!

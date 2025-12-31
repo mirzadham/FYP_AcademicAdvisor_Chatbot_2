@@ -1,0 +1,8 @@
+flows:
+  change_program:
+    description: |
+      Explain program/major change procedure, requirements, and deadlines.
+      Examples: "how to change major?", "switch from CS to SE", "transfer faculty"
+    name: change program information
+    steps:
+      - action: utter_change_program

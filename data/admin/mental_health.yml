@@ -1,0 +1,10 @@
+flows:
+  mental_health_support:
+    description: |
+      CRITICAL SAFETY FLOW. Provide mental health resources and crisis support
+      when user expresses distress, depression, anxiety, or suicidal thoughts.
+      Examples: "I want to give up", "feeling depressed", "mental health help",
+      "suicidal", "stressed and cannot cope"
+    name: mental health support
+    steps:
+      - action: utter_mental_health_support

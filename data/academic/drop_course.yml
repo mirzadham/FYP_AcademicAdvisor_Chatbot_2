@@ -1,0 +1,9 @@
+flows:
+  drop_course:
+    description: |
+      Explain course withdrawal/drop procedure, TD (Total Drop), penalties,
+      and refund policies. Examples: "how to drop a subject?", "withdraw from course",
+      "penalty for dropping late"
+    name: drop course procedure
+    steps:
+      - action: utter_drop_course

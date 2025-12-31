@@ -1,0 +1,8 @@
+flows:
+  probation_info:
+    description: |
+      Explain academic probation status (P1, P2, P3), CGPA requirements, and recovery.
+      Examples: "what is probation?", "my CGPA is below 2.0", "how to get out of probation"
+    name: probation information
+    steps:
+      - action: utter_probation_info

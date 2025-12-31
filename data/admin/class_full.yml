@@ -1,0 +1,8 @@
+flows:
+  class_full:
+    description: |
+      Explain what to do when a class/section is full and registration options.
+      Examples: "class is full", "no more slots", "increase quota"
+    name: class full information
+    steps:
+      - action: utter_class_full

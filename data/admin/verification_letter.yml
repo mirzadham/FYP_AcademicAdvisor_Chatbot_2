@@ -1,0 +1,8 @@
+flows:
+  verification_letter:
+    description: |
+      Explain how to get student verification/confirmation letters.
+      Examples: "need verification letter", "student confirmation letter", "letter for PTPTN"
+    name: verification letter information
+    steps:
+      - action: utter_verification_letter

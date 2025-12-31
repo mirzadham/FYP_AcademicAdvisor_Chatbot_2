@@ -1,0 +1,1733 @@
+﻿version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - goodnight
+    - assalamualaikum
+    - hi there
+    - helo
+    - hye
+    - morning
+    - evening
+    - afternoon
+    - hai
+    - hola
+    - yo
+    - sup
+    - what's up
+    - wassup
+    - hi lah
+    - hello lah
+    - hai bot
+    - hi bot
+    - good morning lah
+    - morning bot
+    - selamat pagi
+    - selamat petang
+    - apa khabar
+    - hey bot
+    - hye there
+    - good nite
+    - gud morning
+    - gud evening
+    - morninggg
+    - hiii
+    - hellooo
+    - heyy
+    - helloo there
+    - assalamualaikum bot
+    - salam
+    - hi advisor
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - bye lah
+    - goodbye lah
+    - see ya
+    - catch you later
+    - take care
+    - laterz
+    - later
+    - gotta go
+    - i go first
+    - i gtg
+    - okay bye
+    - ok bye
+    - ok thanks bye
+    - thanks bye
+    - bye for now
+    - talk to you later
+    - see you soon
+    - until next time
+    - bye bye bot
+    - ok lah bye
+    - okay thank you bye
+    - jumpa lagi
+    - selamat tinggal
+    - see u
+    - c u
+    - cya
+    - gnight
+    - good nite
+    - nite nite
+    - byeee
+    - byee
+    - k bye
+    - kthxbye
+    - alright bye
+    - okay see you
+    - ok see ya
+    - thx bye
+    - ty bye
+    - gud night
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - yup
+    - yeah
+    - yea
+    - sure
+    - ok
+    - okay
+    - alright
+    - sounds good
+    - yes please
+    - yes lah
+    - can lah
+    - can
+    - boleh
+    - okay lah
+    - ok lah
+    - yup yup
+    - ya
+    - betul
+    - correct lah
+    - right
+    - that's right
+    - you're right
+    - absolutely
+    - definitely
+    - for sure
+    - confirm
+    - confirmed
+    - i agree
+    - agree
+    - yes that's correct
+    - yesss
+    - yess
+    - okok
+    - okayyy
+    - ya lah
+    - ok sure
+    - sure thing
+    - sounds good lah
+    - works for me
+    - fine
+    - fine with me
+    - no problem
+    - yes that one
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - nope
+    - nah
+    - no thanks
+    - no thank you
+    - not interested
+    - no lah
+    - cannot lah
+    - cannot
+    - tak boleh
+    - tak nak
+    - don't want
+    - i dont want
+    - nope nope
+    - nah man
+    - no no
+    - noo
+    - nooo
+    - nay
+    - negative
+    - not for me
+    - i don't agree
+    - disagree
+    - wrong
+    - that's wrong
+    - incorrect
+    - not correct
+    - not that one
+    - not this
+    - i refuse
+    - no way lah
+    - definitely not
+    - absolutely not
+    - no can do
+    - i pass
+    - skip
+    - no need
+    - tak payah
+    - don need
+    - not necessary
+    - false
+    - that's not right
+    - i dont think so lah
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - fantastic
+    - excellent
+    - awesome
+    - best day ever
+    - feeling good
+    - im good
+    - im great
+    - very happy
+    - super happy
+    - im super good
+    - i feel great
+    - i feel amazing
+    - im doing great
+    - never better
+    - couldn't be better
+    - on top of the world
+    - feeling blessed
+    - life is good
+    - life is great
+    - everything is good
+    - everything is great
+    - shiok
+    - best lah
+    - so shiok
+    - very shiok
+    - damn good
+    - very the good
+    - power lah
+    - feeling fantastic
+    - im on cloud nine
+    - giler happy
+    - im so happy
+    - so happpyyy
+    - feeling awesome
+    - terrific
+    - im wonderful
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - terrible
+    - awful
+    - horrible
+    - depressed
+    - feeling down
+    - im not okay
+    - not okay
+    - im sad
+    - im very sad
+    - i feel terrible
+    - i feel horrible
+    - feeling terrible
+    - bad day
+    - worst day ever
+    - everything is bad
+    - nothing is going right
+    - im upset
+    - very upset
+    - devastated
+    - heartbroken
+    - miserable
+    - im miserable
+    - down lah
+    - frust lah
+    - frustrated
+    - stress
+    - stressed
+    - very stress
+    - damn sad
+    - sedih
+    - kecewa
+    - not happy
+    - im not happy
+    - gloomy
+    - feeling low
+    - blue
+    - sadddd
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - are you real?
+    - are you a real person?
+    - is this automated?
+    - is this a chatbot?
+    - you are a bot right?
+    - you're not human right?
+    - are you AI?
+    - are you artificial intelligence?
+    - bot or human?
+    - real person or bot?
+    - am i chatting with AI?
+    - are you a robot?
+    - robot ah?
+    - you bot ah?
+    - you real or not?
+    - human or bot?
+    - you ai ah?
+    - your a bot?
+    - your not real lah
+    - you're not a real person right?
+    - who are you?
+    - what are you?
+    - who am i talking to?
+    - is anyone real here?
+    - automated reply ah?
+    - auto bot is it?
+    - chatbot ke?
+    - you can think or not?
+    - are you alive?
+    - you got feelings or not?
+    - you conscious?
+    - you human being?
+    - confirm bot
+    - confirm you're a bot
+    - i know you're a bot
+    - you just a bot lah
+    - you programmed ah?
+    - you computer?
+    - are you software?
+    - virtual assistant?
+    - digital assistant ah?
+    - you ai chatbot?
+    - you're automated right?
+    - chatbot right?
+    - bot kan?
+    - you're just code
+
+- intent: thank_you
+  examples: |
+    - thanks
+    - thank you
+    - thank you so much
+    - thanks a lot
+    - appreciate it
+    - thanks for your help
+    - thx
+    - tysm
+    - I appreciate your help
+    - thank you very much
+    - thanks alot
+    - many thanks
+    - thank u
+    - tq
+    - ty
+    - thanks lah
+    - thank you lah
+    - terima kasih
+    - tq so much
+    - appreciate it lah
+    - thanks ya
+    - thank you ya
+    - thankssss
+    - thanksss
+    - tyvm
+    - thanks man
+    - thanks dude
+    - thanks bot
+    - thank you bot
+    - nice one thanks
+    - ok thanks
+    - okay thanks
+    - ok thank you
+    - okay thank you
+    - cool thanks
+    - great thanks
+    - awesome thanks
+    - perfect thank you
+    - ok tq
+    - okay tq
+    - thanks for helping
+    - thanks for the info
+    - thanks for the help lah
+    - appreciate your help
+    - i appreciate it
+    - much appreciated
+    - very helpful thanks
+    - thanks loads
+    - cheers
+    - thanks a bunch
+
+- intent: ask_prerequisite
+  examples: |
+    - What are the prerequisites for [CSC4600](course_code)?
+    - Do I need to take any subject before [CSC3100](course_code)?
+    - Is [CSC3000](course_code) a requirement for [CSC4600](course_code)?
+    - I want to register for [SSK3000](course_code) but I am not sure if I qualify.
+    - what comes before [MTH3100](course_code)
+    - prereq for [CSC4600](course_code)
+    - can i take [CSC4600](course_code) without [CSC3000](course_code)?
+    - did i need to pass [CSC3000](course_code) first?
+    - checking requirements for [PHY3200](course_code)
+    - is there a pre-req for this subject?
+    - prerequisites [CSC3100](course_code)
+    - [CSC4600](course_code) need what first?
+    - what subject i must take before [MTH3100](course_code)?
+    - any prereq for [SSK3000](course_code)?
+    - pre req for [CSC3000](course_code)
+    - [PHY3200](course_code) got prereq or not?
+    - requirement for taking [CSC4600](course_code)
+    - i can take [CSC3100](course_code) now or not?
+    - need pass what first before [MTH3100](course_code)?
+    - is [CSC3000](course_code) needed for [CSC4600](course_code)?
+    - does [SSK3000](course_code) require any previous subject?
+    - what are the requirements to take [CSC3100](course_code)?
+    - do i qualify for [CSC4600](course_code)?
+    - am i eligible to take [MTH3100](course_code)?
+    - check prerequisites [PHY3200](course_code)
+    - [CSC3100](course_code) ada prereq tak?
+    - kena ambil apa dulu sebelum [CSC4600](course_code)?
+    - must pass [CSC3000](course_code) first ah?
+    - i need take what before this [MTH3100](course_code)?
+    - is there requirement for [SSK3000](course_code)?
+    - [CSC4600](course_code) got requirement or not
+    - what i need before registering [CSC3100](course_code)?
+    - can i straight take [CSC4600](course_code)?
+    - need any subject before [MTH3100](course_code) or not?
+    - prereq check for [PHY3200](course_code)
+    - syarat untuk ambil [CSC3000](course_code)
+    - apa prereq untuk [CSC4600](course_code)?
+    - is [CSC3000](course_code) compulsory for [CSC4600](course_code)?
+    - qualification needed for [SSK3000](course_code)
+    - ada tak subject yang kena ambil before [MTH3100](course_code)?
+    - tell me prerequisite [CSC3100](course_code)
+    - i want know prereq for [CSC4600](course_code)
+    - before take [MTH3100](course_code) need what?
+    - checking if i can take [CSC4600](course_code)
+    - do i need anything before [SSK3000](course_code)?
+    - what course comes before [PHY3200](course_code)?
+    - requirements to register [CSC3100](course_code)
+    - [CSC4600](course_code) requirements
+
+- intent: ask_registration_deadline
+  examples: |
+    - When is the last day to register for courses?
+    - What is the deadline for course registration this semester?
+    - when does the system close for subject registration?
+    - add drop deadline
+    - when does add/drop end?
+    - is it too late to register for classes?
+    - registration closing date
+    - can i still add subjects today?
+    - until when is the portal open?
+    - vital dates for registration
+    - registration deadline
+    - when is registration close?
+    - last day to register
+    - deadline for add drop
+    - add/drop period until when?
+    - can i still register now?
+    - registration date
+    - when registration ends?
+    - subject registration deadline
+    - when is the cutoff for registration?
+    - latest date to add subject
+    - registration period
+    - final date for course registration
+    - deadline to register courses this sem
+    - is registration still open?
+    - registration closes when?
+    - bila deadline registration?
+    - tarikh akhir register subject
+    - registration deadline for this semester
+    - when they close the system?
+    - portal close when ah?
+    - last date to add subject lah
+    - add drop until when ah?
+    - can still register or not?
+    - too late to register ah?
+    - registration period habis bila?
+    - i can add subject until when?
+    - when is add drop period end?
+    - deadline to register subject
+    - registration important dates
+    - critical dates for registration
+    - SMP registration close when?
+    - student portal registration deadline
+    - i got time to register or not?
+    - deadline dah lepas ke?
+    - can add subject today or not?
+    - registration window closes when?
+    - when registration period finish?
+    - last day add drop
+
+- intent: ask_drop_course 
+  examples: |
+    - How do I drop a subject?
+    - I want to remove [CSC3200](course_code) from my schedule.
+    - what is the penalty for dropping a course late?
+    - can i drop a subject after week 7?
+    - procedure to withdraw from a course
+    - i hate [MTH3100](course_code) i want to drop it
+    - drop subject process
+    - is it possible to withdraw now?
+    - do i get a refund if i drop now?
+    - how to TD a subject?
+    - drop course procedure
+    - how to remove subject?
+    - i want drop [CSC3200](course_code)
+    - drop [MTH3100](course_code) how?
+    - procedure for dropping subject
+    - can i drop course now?
+    - withdraw from [CSC3200](course_code)
+    - i want withdraw [MTH3100](course_code)
+    - how to buang subject?
+    - cara drop subject
+    - penalty for late drop
+    - deadline to drop course
+    - can drop after week 10?
+    - drop subject got penalty or not?
+    - what happen if i drop now?
+    - drop course affect gpa or not?
+    - i dont want [CSC3200](course_code) anymore
+    - remove [MTH3100](course_code) from timetable
+    - buang [CSC3200](course_code) macam mana?
+    - i hate this subject want to drop
+    - can i TD this sem?
+    - what is TD?
+    - total drop procedure
+    - drop without penalty
+    - drop course refund
+    - get money back if drop?
+    - how much refund for dropping?
+    - i want cancel [MTH3100](course_code)
+    - cancel subject how?
+    - remove subject from schedule
+    - drop [CSC3200](course_code) now or later?
+    - latest date to drop
+    - drop subject still can or not?
+    - too late to drop ah?
+    - i can drop this week or not?
+    - drop with W grade
+    - withdraw with W how?
+    - affect cgpa if drop?
+    - cara buang subject yang dah register
+
+- intent: ask_graduation_criteria
+  examples: |
+    - What are the requirements to graduate?
+    - How many credit hours do I need to complete my degree?
+    - check graduation status
+    - do i have enough credits to finish?
+    - graduation requirements for Computer Science
+    - total credit hours for bachelor degree
+    - am i eligible to graduate next sem?
+    - list of compulsory subjects for graduation
+    - final year project requirements
+    - what happens if i fail a core subject in my final year?
+    - graduation requirement
+    - graduation criteria
+    - how to graduate?
+    - when can i graduate?
+    - requirement for graduation
+    - credit hours needed to graduate
+    - total credits to complete degree
+    - how many subjects to graduate?
+    - graduation compulsory subjects
+    - am i eligible for graduation?
+    - can i graduate this sem?
+    - check if i can graduate
+    - syarat untuk graduate
+    - berapa credit perlu untuk graduate?
+    - requirement to convo
+    - graduation qualification
+    - do i meet graduation requirements?
+    - how many more credits i need?
+    - i got enough credits or not?
+    - graduation checklist
+    - what i need to graduate?
+    - must take what to graduate?
+    - compulsory courses for graduation
+    - core subjects for graduation CS
+    - final year project needed or not?
+    - FYP requirement for graduation
+    - can graduate without FYP or not?
+    - minimum cgpa to graduate
+    - cgpa requirement graduation
+    - graduation minimum credit
+    - credit requirement bachelor degree
+    - am i graduating soon?
+    - bila boleh graduate?
+    - can i graduate early?
+    - graduate in 3 years can or not?
+    - requirements to finish degree
+    - what if fail core subject final year?
+    - repeat core subject can graduate or not?
+    - missing credits for graduation
+
+- intent: ask_course_info
+  examples: |
+    - What is [CSC4600](course_code) about?
+    - Tell me about [MTH3100](course_code).
+    - synopsis for [SSK3200](course_code)
+    - is [CSC4600](course_code) a hard subject?
+    - how many credit hours is [CSC3000](course_code)?
+    - course outline for [PHY4200](course_code)
+    - what will i learn in [CSC3100](course_code)?
+    - is [CSC4600](course_code) an elective or core?
+    - credit value for [MTH3100](course_code)
+    - details for [SSK3000](course_code) please
+    - course information [CSC4600](course_code)
+    - what is [MTH3100](course_code)?
+    - [CSC3000](course_code) about what?
+    - tell me more about [SSK3200](course_code)
+    - info on [CSC4600](course_code)
+    - [MTH3100](course_code) details
+    - describe [CSC3100](course_code)
+    - [SSK3000](course_code) is what subject?
+    - course description [CSC4600](course_code)
+    - [PHY4200](course_code) teach what?
+    - content of [MTH3100](course_code)
+    - syllabus for [CSC3000](course_code)
+    - [CSC4600](course_code) difficult or not?
+    - is [MTH3100](course_code) easy?
+    - [SSK3200](course_code) susah ke?
+    - how many credits [CSC3100](course_code)?
+    - credit hour untuk [CSC4600](course_code)
+    - [MTH3100](course_code) berapa kredit?
+    - [CSC3000](course_code) core or elective?
+    - is [CSC4600](course_code) compulsory?
+    - [SSK3200](course_code) elective ah?
+    - what i will study in [MTH3100](course_code)?
+    - [CSC4600](course_code) learn about what?
+    - topics covered in [CSC3100](course_code)
+    - course outcome [MTH3100](course_code)
+    - assessment for [CSC4600](course_code)
+    - got exam or not [CSC3000](course_code)?
+    - [MTH3100](course_code) got project?
+    - lecturer for [CSC4600](course_code)
+    - who teach [SSK3200](course_code)?
+    - [CSC3100](course_code) taught by who?
+    - worth taking [MTH3100](course_code) or not?
+    - should i take [CSC4600](course_code)?
+    - good subject or not [CSC3000](course_code)?
+    - [MTH3100](course_code) overview
+    - brief info [CSC4600](course_code)
+    - what to expect from [CSC3100](course_code)?
+ 
+
+- intent: ask_class_full_capacity
+  examples: |
+    - The section for [CSC3100](course_code) is full. What do I do?
+    - Can you increase the quota for [MTH3100](course_code)?
+    - All groups are full for [SSK3000](course_code), help me.
+    - How do I apply for a full section?
+    - is there a waiting list for [CSC4600](course_code)?
+    - class full for [CSC3100](course_code)
+    - [MTH3100](course_code) section penuh
+    - quota for [SSK3000](course_code) habis
+    - all sections full [CSC4600](course_code)
+    - [CSC3100](course_code) dah penuh
+    - cannot register [MTH3100](course_code) full already
+    - group penuh for [SSK3000](course_code)
+    - increase quota [CSC4600](course_code)
+    - can add quota or not?
+    - how to get into full class?
+    - waiting list for [CSC3100](course_code)?
+    - ada waiting list tak [MTH3100](course_code)?
+    - apply for full section how?
+    - procedure for oversubscribed class
+    - [SSK3000](course_code) oversubscribed what to do?
+    - all slots taken [CSC4600](course_code)
+    - no more space in [CSC3100](course_code)
+    - capacity full [MTH3100](course_code)
+    - class capacity reached [SSK3000](course_code)
+    - can appeal for full class or not?
+    - appeal to join full section
+    - [CSC4600](course_code) full can appeal?
+    - group full how to register?
+    - section penuh nak buat apa?
+    - who to contact if class full?
+    - email who for full class?
+    - can open new section or not?
+    - request new group for [CSC3100](course_code)
+    - maximum capacity [MTH3100](course_code)
+    - quota full [SSK3000](course_code) what to do?
+    - slot habis [CSC4600](course_code)
+    - registration full [CSC3100](course_code)
+    - tempat dah habis [MTH3100](course_code)
+    - cannot add [SSK3000](course_code) full
+    - [CSC4600](course_code) says class full
+    - class size limit reached
+    - capacity exceeded [CSC3100](course_code)
+    - too many students in [MTH3100](course_code)
+    - can squeeze in or not?
+    - try add but full lah
+    - system say full [SSK3000](course_code)
+
+- intent: ask_timetable_clash
+  examples: |
+    - My timetable is clashing between [CSC3100](course_code) and [MTH3200](course_code).
+    - Can I take a subject if there is a time conflict?
+    - How to resolve timetable clash?
+    - clash in schedule what to do
+    - [CSC4600](course_code) overlaps with my lab.
+    - timetable clash [CSC3100](course_code) and [MTH3200](course_code)
+    - time conflict between subjects
+    - [CSC4600](course_code) bentrok dengan [MTH3100](course_code)
+    - schedule overlapping
+    - both subjects same time
+    - [CSC3100](course_code) clashes with [SSK3000](course_code)
+    - clash what should i do?
+    - how to solve timetable conflict?
+    - resolve clash
+    - can take both if got clash?
+    - time sama [CSC4600](course_code) and [MTH3200](course_code)
+    - jadual bentrok
+    - timetable bentrok macam mana?
+    - overlapping classes
+    - [CSC3100](course_code) same timing as [MTH3100](course_code)
+    - cannot take both got clash
+    - clash in timetable
+    - time conflict how to handle?
+    - schedule conflict [CSC4600](course_code)
+    - got clash between [CSC3100](course_code) and lab
+    - lab time clash with [MTH3200](course_code)
+    - lecture bentrok dengan tutorial
+    - can i skip one class if clash?
+    - what to do if schedule conflict?
+    - solve timetable problem
+    - [CSC4600](course_code) and [SSK3000](course_code) overlap
+    - both class at same time what to do?
+    - timing conflict
+    - schedule sama how?
+    - jadual conflict
+    - can change group to avoid clash?
+    - switch section because of clash
+    - how to avoid timetable clash?
+    - prevent clash in schedule
+    - check clash between subjects
+    - [CSC3100](course_code) dan [MTH3200](course_code) same slot
+    - time slot conflict
+    - same period [CSC4600](course_code) and [MTH3100](course_code)
+    - got overlap in timing
+    - simultaneous classes what to do?
+    - both subjects masa sama
+    - bentrok boleh ambil dua dua tak?
+    - can register both if clash or not?    
+
+# - intent: ask_credit_overload
+#   examples: |
+#     - Can I take 22 credit hours this sem?
+#     - How do I apply for credit overload?
+#     - maximum credit hours allowed per semester
+#     - i want to take 7 subjects, is that allowed?
+#     - procedure to take extra credits
+
+# - intent: ask_credit_underload
+#   examples: |
+#     - What is the minimum credit hours I must take?
+#     - Can I take only 9 credits this semester?
+#     - minimum workload to maintain active status
+#     - do i have to take 12 credits?
+
+- intent: ask_fail_repeat_policy
+  examples: |
+    - I failed [CSC3100](course_code), do I have to repeat it immediately?
+    - If I repeat a subject, does the old grade disappear?
+    - max grade for repeated subject
+    - i got F in [MTH3100](course_code) what happens now?
+    - repeat policy for core courses
+    - fail subject repeat policy
+    - repeat course policy
+    - i failed [CSC3100](course_code) what now?
+    - must repeat immediately or can later?
+    - repeat subject procedure
+    - how to repeat [MTH3100](course_code)?
+    - fail [CSC3100](course_code) need repeat when?
+    - repeat policy
+    - when to repeat failed subject?
+    - can i repeat next year?
+    - repeat same semester or next?
+    - fail core subject what to do?
+    - i got F need repeat or not?
+    - repeat [MTH3100](course_code) maximum grade?
+    - highest grade after repeat
+    - grade limit for repeat
+    - old grade removed or not?
+    - previous grade still there?
+    - does old F disappear if repeat?
+    - both grades appear or only new one?
+    - repeat affect cgpa how?
+    - how repeat calculated in gpa?
+    - i fail [CSC3100](course_code) kena repeat tak?
+    - gagal subjek kena buat apa?
+    - repeat immediately ke boleh later?
+    - can postpone repeat or not?
+    - must retake failed course?
+    - retake [MTH3100](course_code) procedure
+    - i want to repeat [CSC3100](course_code)
+    - repeat elective or core different?
+    - fail elective need repeat or not?
+    - what if i fail twice?
+    - fail same subject 2 times what happen?
+    - repeat limit ada tak?
+    - maximum times can repeat
+    - fail after repeat what happen?
+    - repeat but fail again
+    - can repeat more than once?
+    - second time repeat still can or not?
+    - grade F repeat policy
+    - repeat course max mark
+    - lepas repeat grade lama hilang ke?
+    - gpa calculation after repeat
+
+- intent: ask_grade_appeal
+  examples: |
+    - How do I appeal my final grade?
+    - I think my marks for [CSC4600](course_code) are wrong.
+    - review of grade procedure
+    - deadline to appeal results
+    - cost to recheck exam paper
+    - grade appeal procedure
+    - appeal marks
+    - how to appeal grade?
+    - i want to appeal [CSC4600](course_code) grade
+    - marks wrong how to appeal?
+    - grade review process
+    - appeal final grade
+    - recheck marks procedure
+    - recalculate grade
+    - i think lecturer counted wrong
+    - my grade is incorrect
+    - [MTH3100](course_code) marks not correct
+    - appeal exam result
+    - grade appeal deadline
+    - until when can appeal?
+    - appeal period
+    - can still appeal or not?
+    - too late to appeal?
+    - appeal fee
+    - how much to appeal grade?
+    - cost for grade appeal
+    - recheck exam paper fee
+    - appeal form where to get?
+    - grade appeal form
+    - procedure to review marks
+    - marks review [CSC4600](course_code)
+    - i disagree with my grade
+    - grade unfair want appeal
+    - appeal marks untuk [MTH3100](course_code)
+    - gred salah macam mana appeal?
+    - recheck script
+    - can recheck exam script or not?
+    - view exam answer script
+    - see my exam paper
+    - check marking scheme
+    - appeal success rate
+    - will appeal change my grade?
+    - does appeal usually work?
+    - appeal takes how long?
+    - grade appeal processing time
+    - when will i know appeal result?
+    - appeal outcome
+    - what if appeal rejected?
+
+- intent: ask_probation_status
+  examples: |
+    - What is the CGPA for academic probation?
+    - Am I on P1 or P2 status?
+    - what happens if my cgpa is below 2.0?
+    - dismissed status meaning
+    - how to get out of probation?
+    - probation status
+    - academic probation
+    - cgpa for probation
+    - minimum cgpa to avoid probation
+    - probation P1
+    - probation P2
+    - P3 status
+    - what is P1 status?
+    - P2 meaning
+    - dismissed from university
+    - cgpa below 2.0 what happen?
+    - my cgpa is 1.8 what now?
+    - am i in probation?
+    - check probation status
+    - how to know if im on probation?
+    - probation requirements
+    - what i must do in probation?
+    - probation period how long?
+    - get out of probation how?
+    - remove probation status
+    - cgpa to keluar from probation
+    - minimum gpa to get out P1
+    - keluar dari probation
+    - probation consequences
+    - what happen if on probation?
+    - probation restrictions
+    - can take full load in probation?
+    - credit limit during probation
+    - probation maximum credits
+    - dismissed meaning
+    - termination from uni
+    - kicked out from university
+    - what if cgpa still low after probation?
+    - fail probation what happen?
+    - P1 to P2
+    - P2 to P3
+    - P3 to dismissed
+    - probation progression
+    - how many sems probation?
+    - syarat probation
+    - status probation P1 bermaksud apa?
+    - cgpa berapa kena probation?
+    - macam mana nak keluar probation?
+
+# - intent: ask_calc_cgpa
+#   examples: |
+#     - How is CGPA calculated?
+#     - formula for gpa
+#     - if i get A in this subject how much will my cgpa rise?
+#     - difference between GPA and CGPA
+#     - grading system points
+
+- intent: ask_elective_options
+  examples: |
+    - What elective courses are available for Computer Science?
+    - List of global electives
+    - easy elective subjects
+    - can i take a language class as elective?
+    - recommend elective for semester 5
+    - elective options
+    - available electives
+    - elective courses list
+    - what electives can i take?
+    - elective subjects for CS
+    - show me electives
+    - elective courses available
+    - which electives are offered?
+    - elective pilihan
+    - free elective options
+    - university elective list
+    - global elective apa ada?
+    - easy elective recommendations
+    - best electives to take
+    - interesting electives
+    - fun elective subjects
+    - elective yang senang
+    - recommend easy elective
+    - what are the easiest electives?
+    - can i take language as elective?
+    - elective bahasa
+    - japanese class as elective?
+    - mandarin elective available or not?
+    - elective for sem 5
+    - semester 5 elective choices
+    - which elective should i take?
+    - popular electives
+    - elective yang ramai ambil
+    - most taken electives
+    - elective course recommendations
+    - good electives
+    - elective course codes
+    - list of elective codes
+    - how many electives must take?
+    - compulsory electives
+    - free elective vs university elective
+    - difference between elective types
+    - can take elective from other faculty?
+    - elective outside my program
+    - cross faculty elective
+    - elective options other than CS
+    - non technical electives
+    - elective untuk final year
+    - graduating student elective options
+
+- intent: ask_industrial_training
+  examples: |
+    - When can I go for internship?
+    - prerequisites for industrial training
+    - do i need to find my own company for internship?
+    - how many weeks is the industrial training?
+    - LI registration procedure
+    - industrial training
+    - internship requirements
+    - when can i do internship?
+    - LI procedure
+    - latihan industri
+    - industrial training prerequisites
+    - what semester can do internship?
+    - can i go for LI now?
+    - internship registration
+    - how to register for LI?
+    - LI registration
+    - find company myself or not?
+    - university provide company for internship?
+    - own placement or university placement?
+    - LI duration
+    - how long is industrial training?
+    - internship berapa minggu?
+    - LI berapa bulan?
+    - weeks for internship
+    - minimum weeks for LI
+    - start internship when?
+    - industrial training period
+    - can do LI during sem break?
+    - internship during holiday or semester?
+    - LI assessment
+    - how is LI graded?
+    - internship evaluation
+    - fail LI what happen?
+    - can fail industrial training or not?
+    - LI credit hours
+    - how many credits for internship?
+    - internship syarat
+    - requirements before can go LI
+    - minimum credit before internship
+    - cgpa requirement for LI
+    - can go internship if on probation?
+    - LI form
+    - internship registration form
+    - where to submit LI form?
+    - LI report format
+    - industrial training report requirements
+    - logbook for LI
+
+# - intent: ask_minor_program
+#   examples: |
+#     - How do I minor in Management?
+#     - list of minor packages
+#     - can i do a minor in psychology?
+#     - credit hours required for minor
+
+- intent: ask_deferment
+  examples: |
+    - How do I defer this semester?
+    - take a break from study
+    - leave of absence procedure
+    - can i skip one semester and come back?
+    - deadline to apply for deferment
+    - deferment procedure
+    - defer semester
+    - how to defer?
+    - defer studies
+    - deferment application
+    - tangguh pengajian
+    - take break from university
+    - skip this sem
+    - can i postpone my studies?
+    - leave of absence
+    - LOA application
+    - how to apply LOA?
+    - cuti belajar
+    - defer 1 semester
+    - deferment form
+    - where to get deferment form?
+    - application for deferment
+    - deferment deadline
+    - until when can defer?
+    - last day to apply deferment
+    - defer this sem still can or not?
+    - alasan untuk defer
+    - reasons for deferment
+    - medical deferment
+    - defer because of health
+    - emergency deferment
+    - defer on short notice
+    - maximum semesters can defer
+    - how many times can defer?
+    - defer limit
+    - deferment period
+    - how long can defer?
+    - come back after defer when?
+    - return after deferment
+    - deferment affect graduation or not?
+    - will defer delay graduation?
+    - defer affect scholarship?
+    - PTPTN if defer
+    - fees during deferment
+    - need pay if defer?
+    - defer vs withdraw difference
+    - deferment approval
+    - will deferment be approved?
+
+- intent: ask_change_program
+  examples: |
+    - How do I change my major?
+    - process to switch from CS to SE
+    - change programme requirements
+    - can i transfer to another faculty?
+    - change program
+    - switch major
+    - change course
+    - tukar program
+    - how to change major?
+    - change from CS to SE
+    - switch to different program
+    - transfer program
+    - change faculty
+    - tukar fakulti
+    - procedure to change program
+    - change major requirements
+    - requirement for program transfer
+    - can i switch program?
+    - switching program procedure
+    - tukar course macam mana?
+    - change program application
+    - apply to change major
+    - form to change program
+    - change program form
+    - deadline to change program
+    - when can change program?
+    - latest date to switch major
+    - can change program now or not?
+    - program transfer eligibility
+    - cgpa requirement to change program
+    - minimum cgpa for program change
+    - change to SE requirements
+    - switch from engineering to CS
+    - transfer to another faculty requirements
+    - interfaculty transfer
+    - change program within same faculty
+    - intrafaculty transfer
+    - will credits transfer if change program?
+    - credit transfer during program change
+    - how many credits can carry over?
+    - change program affect graduation?
+    - delay graduation if change program?
+    - change program success rate
+    - is it hard to change program?
+    - chance of approval for program change
+    - rejected program change what to do?
+
+- intent: ask_fees_registration_block
+  examples: |
+    - Why is my registration blocked?
+    - I paid my fees but still cannot register for subjects.
+    - minimum payment to unblock SMP
+    - how much do i need to pay to register?
+    - financial block on course registration
+    - deadline for tuition fee payment
+    - registration blocked
+    - cannot register blocked
+    - SMP blocked
+    - registration block why?
+    - my account is blocked
+    - financial block
+    - fees block
+    - i paid already but still blocked
+    - payment made still cannot register
+    - yuran dah bayar tapi block
+    - unblock registration
+    - how to unblock SMP?
+    - minimum payment requirement
+    - berapa minimum kena bayar?
+    - how much to pay to unblock?
+    - partial payment can or not?
+    - pay half can register or not?
+    - installment payment
+    - registration unblock procedure
+    - financial hold on account
+    - fees deadline
+    - tuition fee due date
+    - payment deadline this sem
+    - when must pay fees?
+    - late payment penalty
+    - penalty for late fees payment
+    - what if dont pay on time?
+    - overdue fees
+    - outstanding payment
+    - balance fees berapa?
+    - check my fees balance
+    - how much i owe?
+    - payment proof not updated
+    - paid but system not updated
+    - finance office contact
+    - who to contact for payment issues?
+    - fees payment email
+    - unblock request
+    - ask to unblock registration
+    - PTPTN payment count or not?
+    - scholarship payment
+    - sponsorship payment not reflected
+
+- intent: ask_exam_schedule
+  examples: |
+    - When is the final exam for [CSC3100](course_code)?
+    - exam date for [MTH3200](course_code)
+    - where is the exam hall for [SSK3000](course_code)?
+    - is the exam online or physical?
+    - final exam timetable
+    - exam schedule
+    - final exam date [CSC3100](course_code)
+    - when is my exam?
+    - [MTH3200](course_code) exam bila?
+    - exam timetable
+    - check exam schedule
+    - tarikh exam [CSC3100](course_code)
+    - final exam when?
+    - exam date and time
+    - [SSK3000](course_code) exam kat mana?
+    - exam venue
+    - exam location [CSC3100](course_code)
+    - hall for exam
+    - dewan exam mana?
+    - online exam or physical?
+    - exam mode
+    - [MTH3200](course_code) online or offline exam?
+    - physical exam or not?
+    - exam kat campus ke online?
+    - final exam schedule this sem
+    - jadual peperiksaan
+    - exam calendar
+    - exam timetable release when?
+    - when they publish exam schedule?
+    - exam clash
+    - two exams same day
+    - [CSC3100](course_code) and [MTH3200](course_code) same date
+    - exam on the same day what to do?
+    - exam session
+    - morning or afternoon exam?
+    - exam time slot
+    - [SSK3000](course_code) exam pukul berapa?
+    - what time is my exam?
+    - duration of exam [CSC3100](course_code)
+    - exam berapa jam?
+    - how long is the exam?
+    - exam important dates
+    - exam week
+    - when is exam week?
+    - final exam period
+    - exam start date
+    - exam end date
+    - last day of exams
+
+- intent: ask_exam_regulations
+  examples: |
+    - What is the dress code for exams?
+    - Can I wear slippers to the exam hall?
+    - am i barred from taking the exam?
+    - attendance requirement to sit for final exam
+    - what happens if i come late to the exam?
+    - exam regulations
+    - exam rules
+    - exam dress code
+    - what to wear for exam?
+    - can wear slipper or not?
+    - selipar boleh ke?
+    - exam attire
+    - proper attire for exam
+    - exam clothing rules
+    - can wear short pants?
+    - exam barred
+    - barred from exam
+    - cannot take exam why?
+    - barred status
+    - attendance tak cukup
+    - minimum attendance for exam
+    - how much attendance needed?
+    - attendance requirement
+    - can sit for exam if attendance low?
+    - what if attendance below 80%?
+    - late to exam
+    - come late to exam hall
+    - lambat sampai exam what happen?
+    - miss exam what to do?
+    - absent from exam
+    - cannot attend exam
+    - medical certificate for exam
+    - MC for exam
+    - emergency during exam
+    - what to bring to exam?
+    - exam requirements
+    - calculator allowed or not?
+    - bring calculator to exam?
+    - open book exam?
+    - can bring notes?
+    - exam materials allowed
+    - student card compulsory?
+    - need bring matric card?
+    - forgot matric card can enter?
+    - exam cheating penalty
+    - what if caught cheating?
+    - plagiarism during exam
+    - phone during exam
+    - can bring phone to hall?
+
+- intent: ask_credit_transfer
+  examples: |
+    - How do I apply for credit transfer?
+    - Can I get exemption for [MTH3100](course_code)?
+    - credit exemption procedure for diploma students
+    - i took this subject in my previous uni, do i need to take it again?
+    - form for course exemption
+    - credit transfer
+    - course exemption
+    - apply for exemption
+    - how to get credit exemption?
+    - transfer credits from previous uni
+    - credit transfer procedure
+    - exemption for [MTH3100](course_code)
+    - can exempt [CSC3100](course_code)?
+    - [MTH3100](course_code) exemption application
+    - diploma credit transfer
+    - transfer credits from diploma
+    - credit transfer for diploma students
+    - took subject before need repeat or not?
+    - previous university credits
+    - transfer from another uni
+    - credit exemption form
+    - where to get exemption form?
+    - exemption application procedure
+    - course equivalence
+    - equivalent subject from previous uni
+    - [MTH3100](course_code) equivalent
+    - which subjects can be exempted?
+    - maximum credits can transfer
+    - how many credits can exempt?
+    - exemption limit
+    - credit transfer deadline
+    - when to apply for exemption?
+    - exemption application deadline
+    - credit transfer requirements
+    - documents needed for exemption
+    - what to submit for credit transfer?
+    - syllabus for exemption
+    - need submit syllabus or not?
+    - transcript for credit transfer
+    - exemption approval
+    - how long exemption takes?
+    - exemption processing time
+    - my exemption approved or not?
+    - exempt subject show in transcript?
+    - credit transfer affect gpa?
+    - exempted subject berapa kredit?
+    - pengecualian kredit
+    - macam mana nak apply exemption?
+
+- intent: ask_deans_list
+  examples: |
+    - What is the GPA requirement for Dean's List?
+    - how to get anugerah dekan
+    - minimum gpa for dean list
+    - do i get money for being on the dean's list?
+    - dean's list
+    - dean list requirement
+    - anugerah dekan
+    - how to get dean's list?
+    - gpa requirement dean list
+    - minimum cgpa dean list
+    - dean list berapa pointer?
+    - dean's list criteria
+    - what is dean's list?
+    - qualify for dean list
+    - am i on dean's list?
+    - check dean list status
+    - dean list this sem
+    - can i get dean list?
+    - dean's list gpa
+    - cgpa dean list requirement
+    - dean list minimum grade
+    - need all A to get dean list?
+    - can get B and still dean list?
+    - gpa 3.5 can get dean list or not?
+    - anugerah dekan syarat
+    - syarat dapat anugerah dekan
+    - dean list dapat apa?
+    - reward for dean's list
+    - dean list prize
+    - money for dean list
+    - cash prize dean's list
+    - dean list benefits
+    - certificate for dean list
+    - sijil anugerah dekan
+    - dean's list announcement when?
+    - when they announce dean list?
+    - dean list results
+    - dean's list appeared in transcript?
+    - show in transcript or not?
+    - how many times can get dean list?
+    - dean list every semester
+    - consistent dean list award
+    - chancellor's list vs dean's list
+    - what's better than dean list?
+    - highest academic honor
+    - prestigious award gpa
+
+- intent: ask_muet_requirement
+  examples: |
+    - What is the minimum MUET band for graduation?
+    - Do I need to retake MUET if I got Band 3?
+    - muet requirement for computer science
+    - english proficiency requirement
+    - when should i take muet?
+    - MUET requirement
+    - minimum MUET band
+    - MUET band for graduation
+    - need MUET band berapa?
+    - muet requirement CS
+    - computer science muet band
+    - minimum band to graduate
+    - i got band 3 enough or not?
+    - band 3 need retake MUET?
+    - MUET band 2 can graduate?
+    - what if MUET band 1?
+    - fail MUET can graduate or not?
+    - retake MUET
+    - how to retake MUET?
+    - MUET retake procedure
+    - when can retake MUET?
+    - MUET exam dates
+    - when is MUET exam?
+    - register for MUET
+    - MUET registration
+    - how to register MUET?
+    - MUET fees
+    - how much is MUET?
+    - MUET cost
+    - MUET exemption
+    - can exempt MUET or not?
+    - IELTS instead of MUET?
+    - TOEFL dapat ganti MUET?
+    - english proficiency test alternatives
+    - other than MUET can or not?
+    - MUET replacement
+    - keperluan MUET
+    - taklumat MUET
+    - MUET wajib ke?
+    - compulsory MUET
+    - must take MUET?
+    - when to sit for MUET?
+    - MUET in which semester?
+    - year 1 must take MUET?
+    - MUET preparation
+    - how to prepare for MUET?
+    - MUET tips
+
+- intent: ask_system_issues
+  examples: |
+    - I cannot login to SMP.
+    - Putrablast is down.
+    - forgot my smp password
+    - how to reset student portal password?
+    - system error when registering course
+    - system issues
+    - cannot login SMP
+    - SMP login problem
+    - student portal not working
+    - putrablast down
+    - putrablast cannot open
+    - SMP rosak
+    - system error
+    - error message when login
+    - forgot password
+    - lupa password SMP
+    - reset password  
+    - how to reset password?
+    - change SMP password
+    - password reset procedure
+    - cannot access student portal
+    - portal tak boleh masuk
+    - SMP maintenance
+    - under maintenance ke?
+    - when will SMP be back?
+    - system down until when?
+    - registration error
+    - error during registration
+    - cannot register error
+    - system says error
+    - technical issue
+    - IT problem
+    - website problem
+    - portal slow
+    - SMP very slow
+    - loading forever
+    - page not loading
+    - putrablast loading issue
+    - timeout error
+    - session expired
+    - logged out automatically
+    - cannot save changes
+    - changes not saved
+    - system hang
+    - SMP freeze
+    - browser issue
+    - which browser to use?
+    - SMP compatible browser
+    - clear cache help or not?
+
+- intent: detect_mental_health_crisis
+  examples: |
+    - I feel like giving up.
+    - I am very stressed and depressed.
+    - i want to quit uni because i can't handle the pressure
+    - i have anxiety about my exams
+    - who can i talk to about my mental health?
+    - i am feeling suicidal
+    - mental health help
+    - i need help
+    - feeling depressed
+    - very stressed cannot cope
+    - pressure too much
+    - anxiety attack
+    - panic attack
+    - cannot handle stress
+    - too much pressure want give up
+    - i want to give up everything
+    - quit university
+    - drop out because stress
+    - mental breakdown
+    - burnout
+    - i am not okay mentally
+    - mental health support
+    - counseling service
+    - need counselor
+    - talk to someone
+    - who can i talk to?
+    - psychological help
+    - rasa nak give up
+    - stress sangat
+    - tekanan terlalu banyak
+    - tak tahan dah
+    - penat mental
+    - nak quit study
+    - exam stress teruk
+    - anxiety pasal exam
+    - insomnia because of stress
+    - cannot sleep worried
+    - overthinking everything
+    - feel hopeless
+    - no motivation
+    - lost interest in everything
+    - don't want to do anything
+    - rasa kosong
+    - feel empty inside
+    - self harm
+    - hurt myself
+    - suicidal thoughts
+    - want to end it all
+    - counseling UPM
+    - mental health services UPM
+    - where to get help campus?
+
+- intent: ask_convocation
+  examples: |
+    - When is the convocation ceremony?
+    - how to register for graduation
+    - convocation robe rental
+    - do i need to pay for convo?
+    - graduation fee
+    - convocation
+    - graduation ceremony
+    - convo date
+    - when is convo?
+    - convocation ceremony date
+    - majlis konvokesyen
+    - bila konvo?
+    - graduation registration
+    - register for convo
+    - how to register convocation?
+    - convo registration procedure
+    - graduation robe
+    - robe rental
+    - jubah convo
+    - where to rent robe?
+    - convocation attire
+    - what to wear for convo?
+    - graduation fee
+    - convo payment
+    - how much is convocation?
+    - yuran konvokesyen
+    - need pay for graduation or not?
+    - convocation free or need pay?
+    - guest tickets
+    - convo invitation
+    - how many guests can bring?
+    - family tickets for convocation
+    - tempah tiket konvo
+    - convocation venue
+    - where is convo held?
+    - location graduation ceremony
+    - convocation day procedure
+    - what happen on convo day?
+    - convocation rehearsal
+    - latihan konvo
+    - scroll collection
+    - graduation scroll
+    - when to collect scroll?
+    - can skip convocation?
+    - attend convo compulsory or not?
+    - graduate in absentia
+    - tidak hadir konvo boleh ke?
+    - convocation photos
+    - photography during convo
+
+- intent: ask_career_prospects
+  examples: |
+    - What jobs can I get with a Computer Science degree?
+    - career paths for software engineering
+    - is there a demand for this major?
+    - what industry can i work in?
+    - future prospects for this course
+    - career prospects
+    - job opportunities CS
+    - what jobs for computer science?
+    - career options CS degree
+    - software engineering career
+    - jobs after graduation
+    - kerja apa lepas grad CS?
+    - job demand for this major
+    - market demand CS
+    - is CS in demand?
+    - computer science job market
+    - industry for CS graduates
+    - which industry can work?
+    - tech industry jobs
+    - IT sector careers
+    - future of CS career
+    - CS career outlook
+    - job prospects computer science
+    - employment rate CS graduates
+    - average salary CS
+    - starting salary computer science
+    - gaji lepas grad CS berapa?
+    - income after graduation
+    - career progression CS
+    - software engineer salary
+    - data scientist career
+    - web developer jobs
+    - mobile app developer career
+    - cybersecurity jobs
+    - AI machine learning careers
+    - game developer prospects
+    - cloud engineer demand
+    - devops career
+    - programming jobs
+    - can work where after grad?
+    - multinational companies hiring CS?
+    - tech companies in Malaysia
+    - startup opportunities
+    - freelance programming
+    - remote work CS
+    - kerja dari rumah CS boleh ke?
+    - career guidance
+    - internship to job conversion
+
+- intent: ask_verification_letter
+  examples: |
+    - I need a student verification letter.
+    - How do I get a confirmation letter that I am a UPM student?
+    - letter for PTPTN application
+    - where to download offer letter?
+    - confirmation of enrollment letter
+    - verification letter
+    - student verification
+    - confirmation letter
+    - surat pengesahan pelajar
+    - how to get verification letter?
+    - student status letter
+    - enrollment verification
+    - proof of student status
+    - student confirmation letter
+    - verification letter untuk PTPTN
+    - PTPTN letter
+    - letter for loan application
+    - student letter for bank
+    - bank loan verification
+    - offer letter
+    - surat tawaran
+    - where to download offer letter?
+    - acceptance letter UPM
+    - admission letter
+    - enrollment letter
+    - registration confirmation
+    - surat pendaftaran
+    - active student letter
+    - current student verification
+    - letter saying i'm a student
+    - verification for scholarship
+    - scholarship application letter
+    - letter for visa application
+    - student visa letter
+    - immigration letter
+    - how to apply verification letter?
+    - verification letter procedure
+    - online verification letter
+    - can download letter from SMP?
+    - verification letter from portal
+    - who to contact for letter?
+    - registrar office letter
+    - how long to get letter?
+    - verification letter processing time
+    - urgent verification letter
+    - need letter fast
+    - emergency student letter
+    - verification letter fee
+    - free or need pay?
+    - verification letter format
+

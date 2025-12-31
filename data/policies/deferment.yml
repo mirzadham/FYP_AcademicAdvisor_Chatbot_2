@@ -1,0 +1,8 @@
+flows:
+  deferment_info:
+    description: |
+      Explain deferment/leave of absence procedure, deadline, and requirements.
+      Examples: "how to defer?", "take a break from study", "LOA procedure"
+    name: deferment information
+    steps:
+      - action: utter_deferment_info

@@ -1,0 +1,9 @@
+flows:
+  graduation_requirements:
+    description: |
+      Explain graduation criteria including minimum credits, CGPA requirements,
+      compulsory subjects, and FYP. Examples: "how to graduate?", 
+      "graduation requirements", "how many credits to finish degree"
+    name: graduation requirements
+    steps:
+      - action: utter_graduation_requirements
