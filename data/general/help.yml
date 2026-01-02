@@ -2,5 +2,7 @@ flows:
   help:
     description: Explain what the academic advisor chatbot can help with
     name: help
+    nlu_trigger:
+      - intent: ask_help
     steps:
       - action: utter_help

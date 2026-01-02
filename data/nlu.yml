@@ -1,0 +1,90 @@
+version: "3.1"
+nlu:
+# Greeting intent
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good afternoon
+    - good evening
+    - hi there
+    - hello there
+    - hey there
+    - assalamualaikum
+    - salam
+
+# Goodbye intent
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - see you later
+    - bye bye
+    - take care
+    - have a nice day
+    - thanks bye
+
+# Help intent
+- intent: ask_help
+  examples: |
+    - help
+    - help me
+    - what can you do
+    - what can you help with
+    - what are your capabilities
+    - how can you help
+    - i need help
+    - can you help me
+
+# Course info intent
+- intent: ask_course_info
+  examples: |
+    - tell me about [CCS3101](course_code)
+    - what is [CSC4600](course_code)
+    - course info for [SKC3103](course_code)
+    - information about [CCS3104](course_code)
+    - describe [SSE3401](course_code)
+    - what is [CCS3101](course_code) about
+    - details of [CSC4600](course_code)
+    - course details [SKC3103](course_code)
+    - tell me about course [CCS3104](course_code)
+
+# Prerequisites intent
+- intent: ask_prerequisites
+  examples: |
+    - what are the prerequisites for [CCS3101](course_code)
+    - prerequisites for [CSC4600](course_code)
+    - what do I need to take [SKC3103](course_code)
+    - prereqs for [CCS3104](course_code)
+    - requirements for [SSE3401](course_code)
+    - what courses must I complete before [CCS3101](course_code)
+    - prerequisite of [CSC4600](course_code)
+
+# Academic policies intent
+- intent: ask_academic_policy
+  examples: |
+    - what is the deferment policy
+    - how to defer semester
+    - academic probation rules
+    - what happens if I fail
+    - credit transfer policy
+    - how to appeal grades
+    - graduation requirements
+    - minimum CGPA requirement
+    - maximum credit hours per semester
+    - add drop period
+
+# Fallback for complex queries (will trigger Gemini)
+- intent: out_of_scope
+  examples: |
+    - I have a complex question
+    - can you explain something specific
+    - I need advice on my academic situation
+    - what should I do about my grades
+    - how do I plan my courses
+    - career advice
+    - job prospects after graduating
+    - research opportunities

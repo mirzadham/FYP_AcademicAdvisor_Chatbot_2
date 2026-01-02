@@ -1,17 +1,43 @@
-# Rasa Pro CALM Configuration
-# Academic Advisor Chatbot
+# Rasa Pro Hybrid Configuration
+# Academic Advisor Chatbot for UPM
+# Uses traditional NLU + CALM flows + Gemini fallback
 recipe: default.v1
 language: en
 assistant_id: upm-academic-advisor
 
-# CALM Pipeline with OpenAI
+# Hybrid Pipeline: Traditional NLU + Flow Integration
 pipeline:
-  - name: SingleStepLLMCommandGenerator
-    llm:
-      model: gpt-4o-mini
-      temperature: 0.2
-    flow_retrieval:
-      active: false
+  # Tokenization
+  - name: WhitespaceTokenizer
+  
+  # Feature extraction
+  - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
+    min_ngram: 1
+    max_ngram: 4
+  
+  # Intent classification and entity extraction
+  - name: DIETClassifier
+    epochs: 100
+    constrain_similarities: true
+  
+  # Fallback classifier for low confidence
+  - name: FallbackClassifier
+    threshold: 0.4
+    ambiguity_threshold: 0.1
+  
+  # Entity handling
+  - name: EntitySynonymMapper
+  - name: RegexEntityExtractor
+  
+  # Bridge NLU intents to CALM flows
+  - name: NLUCommandAdapter
 
 policies:
   - name: FlowPolicy
+  - name: RulePolicy
+    core_fallback_threshold: 0.4
+    core_fallback_action_name: action_gemini_response

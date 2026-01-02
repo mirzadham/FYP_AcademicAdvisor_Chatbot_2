@@ -2,5 +2,7 @@ flows:
   hello:
     description: Greet the user when they say hello
     name: hello
+    nlu_trigger:
+      - intent: greet
     steps:
       - action: utter_hello

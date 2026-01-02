@@ -1,0 +1,17 @@
+version: "3.1"
+actions:
+  - action_gemini_response
+  - action_provide_course_info
+  - action_provide_prerequisite
+
+entities:
+  - course_code
+
+intents:
+  - greet
+  - goodbye
+  - ask_help
+  - ask_course_info
+  - ask_prerequisites
+  - ask_academic_policy
+  - out_of_scope

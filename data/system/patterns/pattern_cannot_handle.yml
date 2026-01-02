@@ -1,0 +1,9 @@
+# Custom pattern_cannot_handle - uses Gemini for unhandled queries
+flows:
+  pattern_cannot_handle:
+    description: |
+      Handles cases where the bot cannot understand or handle the user's request.
+      Overrides default to use RAG-enhanced Gemini AI.
+    name: pattern cannot handle
+    steps:
+      - action: action_gemini_response

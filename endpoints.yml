@@ -2,4 +2,13 @@
 
 # Server which runs your custom actions.
 action_endpoint:
-  url: "http://localhost:5055/webhook"
+  actions_module: "actions"
+
+# Model groups for LLM (required for CALM)
+model_groups:
+  - id: openai-gpt
+    models:
+      - provider: openai
+        model: gpt-4o-mini
+        timeout: 15
+        max_completion_tokens: 256
