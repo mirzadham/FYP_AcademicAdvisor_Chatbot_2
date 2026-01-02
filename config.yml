@@ -4,11 +4,12 @@ recipe: default.v1
 language: en
 assistant_id: upm-academic-advisor
 
-# CALM Pipeline with Gemini LLM
+# CALM Pipeline with OpenAI
 pipeline:
   - name: SingleStepLLMCommandGenerator
     llm:
-      model_group: gemini
+      model: gpt-4o-mini
+      temperature: 0.2
     flow_retrieval:
       active: false
 

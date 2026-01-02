@@ -3,13 +3,3 @@
 # Server which runs your custom actions.
 action_endpoint:
   url: "http://localhost:5055/webhook"
-
-# LLM Model Groups for CALM
-model_groups:
-  - id: gemini
-    models:
-      - provider: google
-        model: gemini-2.0-flash
-        api_key: ${GEMINI_API_KEY}
-        config:
-          temperature: 0.2
